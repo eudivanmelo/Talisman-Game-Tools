@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talisman Game Tools", "Talisman Game Tools\Talisman Game Tools.csproj", "{386C796D-EBC0-4C7E-83AA-B7390FDE2A7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A51D6C0-FF75-471A-B72E-845CF63A6BEA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{386C796D-EBC0-4C7E-83AA-B7390FDE2A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386C796D-EBC0-4C7E-83AA-B7390FDE2A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386C796D-EBC0-4C7E-83AA-B7390FDE2A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386C796D-EBC0-4C7E-83AA-B7390FDE2A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0BA6911-3B05-42BE-B717-19A9C35BF11B}
+	EndGlobalSection
+EndGlobal
