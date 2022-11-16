@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Item.cs" />
+    <Compile Include="Data\Priv_Cfg.cs" />
+    <Compile Include="Data\Priv_Cmd.cs" />
     <Compile Include="Data\Suit.cs" />
     <Compile Include="Forms\frmItem.cs">
       <SubType>Form</SubType>

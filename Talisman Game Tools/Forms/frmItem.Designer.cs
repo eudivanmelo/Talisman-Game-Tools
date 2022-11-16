@@ -208,36 +208,36 @@
             this.chkPrePoseDrawWeap = new System.Windows.Forms.CheckBox();
             this.chkCache = new System.Windows.Forms.CheckBox();
             this.chkNotCheckAttState = new System.Windows.Forms.CheckBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
+            this.txtGraph_HitEffLink = new System.Windows.Forms.TextBox();
+            this.lblGraph_HitEffLink = new System.Windows.Forms.Label();
+            this.txtGraph_HitEff = new System.Windows.Forms.TextBox();
+            this.lblGraph_HitEff = new System.Windows.Forms.Label();
+            this.txtGraph_SceneEff = new System.Windows.Forms.TextBox();
+            this.lblGraph_SceneEff = new System.Windows.Forms.Label();
+            this.txtSound = new System.Windows.Forms.TextBox();
+            this.lblSound = new System.Windows.Forms.Label();
+            this.txtWeapon1DrawInLink2 = new System.Windows.Forms.TextBox();
+            this.lblWeapon1DrawInLink2 = new System.Windows.Forms.Label();
+            this.txtWeaponLink2 = new System.Windows.Forms.TextBox();
+            this.lblWeaponLink2 = new System.Windows.Forms.Label();
+            this.txtWeapon1DrawInLink = new System.Windows.Forms.TextBox();
+            this.lblWeapon1DrawInLink = new System.Windows.Forms.Label();
+            this.txtItemRideEffectLink = new System.Windows.Forms.TextBox();
+            this.lblItemRideEffectLink = new System.Windows.Forms.Label();
+            this.txtItemRideEffect = new System.Windows.Forms.TextBox();
+            this.lblItemRideEffect = new System.Windows.Forms.Label();
+            this.txtWeaponLink = new System.Windows.Forms.TextBox();
+            this.lblWeaponLink = new System.Windows.Forms.Label();
+            this.txtModel4_2 = new System.Windows.Forms.TextBox();
+            this.lblModel4_2 = new System.Windows.Forms.Label();
+            this.txtModel3_2 = new System.Windows.Forms.TextBox();
+            this.lblModel_2 = new System.Windows.Forms.Label();
+            this.lblModel3_2 = new System.Windows.Forms.Label();
+            this.txtModel_2 = new System.Windows.Forms.TextBox();
+            this.txtModel2_2 = new System.Windows.Forms.TextBox();
+            this.lblModel2_2 = new System.Windows.Forms.Label();
+            this.txtScale = new System.Windows.Forms.TextBox();
+            this.lblScale = new System.Windows.Forms.Label();
             this.lblGraphParam = new System.Windows.Forms.Label();
             this.txtGraphParam = new System.Windows.Forms.TextBox();
             this.picIcon = new System.Windows.Forms.PictureBox();
@@ -251,46 +251,46 @@
             this.txtModel = new System.Windows.Forms.TextBox();
             this.txtMode2 = new System.Windows.Forms.TextBox();
             this.lblModel2 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.txtDmgMinMax = new System.Windows.Forms.TextBox();
+            this.lblDmgMinMax = new System.Windows.Forms.Label();
+            this.txtRealDmgTime = new System.Windows.Forms.TextBox();
+            this.lblRealDmgTime = new System.Windows.Forms.Label();
+            this.txtNoDamage = new System.Windows.Forms.TextBox();
+            this.lblNoDamage = new System.Windows.Forms.Label();
+            this.txtLaunchTarget = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.txtLaunchSelf = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtLaunchTmpTarget = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtLaunchTmpSelf = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtDmgType = new System.Windows.Forms.TextBox();
+            this.lblDmgType = new System.Windows.Forms.Label();
+            this.txtAdditionShowParam = new System.Windows.Forms.TextBox();
+            this.lblAddtionShowParam = new System.Windows.Forms.Label();
+            this.txtEffRate = new System.Windows.Forms.TextBox();
+            this.lblEffRate = new System.Windows.Forms.Label();
+            this.txtCriticalRate = new System.Windows.Forms.TextBox();
+            this.lblCriticalRate = new System.Windows.Forms.Label();
+            this.txtPoseTime = new System.Windows.Forms.TextBox();
+            this.lblPoseTime = new System.Windows.Forms.Label();
+            this.txtForbiddenTime = new System.Windows.Forms.TextBox();
+            this.lblForbiddenTime = new System.Windows.Forms.Label();
+            this.txtTypeCDId = new System.Windows.Forms.TextBox();
+            this.lblTypeCDId = new System.Windows.Forms.Label();
+            this.txtPublicCDTime = new System.Windows.Forms.TextBox();
+            this.lblPublicCDTime = new System.Windows.Forms.Label();
+            this.txtCDTime = new System.Windows.Forms.TextBox();
+            this.lblCDTime = new System.Windows.Forms.Label();
+            this.txtLoadingTarget = new System.Windows.Forms.TextBox();
+            this.lblLoadingTarget = new System.Windows.Forms.Label();
+            this.txtLoadingSelf = new System.Windows.Forms.TextBox();
+            this.lblLoadingSelf = new System.Windows.Forms.Label();
+            this.txtLoadingTmpTarget = new System.Windows.Forms.TextBox();
+            this.lblLoadingTmpTarget = new System.Windows.Forms.Label();
+            this.txtLoadingTmpSelf = new System.Windows.Forms.TextBox();
+            this.lblLoadingTmpSelf = new System.Windows.Forms.Label();
             this.chkPath = new System.Windows.Forms.CheckBox();
             this.linkForum = new System.Windows.Forms.LinkLabel();
             this.groupItems.SuspendLayout();
@@ -567,115 +567,124 @@
             "Dagger",
             "Bow",
             "Crossbow"});
-            this.cmbWeaponType.Location = new System.Drawing.Point(338, 164);
+            this.cmbWeaponType.Location = new System.Drawing.Point(343, 164);
             this.cmbWeaponType.Name = "cmbWeaponType";
-            this.cmbWeaponType.Size = new System.Drawing.Size(225, 21);
+            this.cmbWeaponType.Size = new System.Drawing.Size(220, 21);
             this.cmbWeaponType.TabIndex = 75;
+            this.cmbWeaponType.SelectedIndexChanged += new System.EventHandler(this.cmbWeaponType_SelectedIndexChanged);
             // 
             // lblWeapType
             // 
             this.lblWeapType.AutoSize = true;
             this.lblWeapType.Location = new System.Drawing.Point(259, 167);
             this.lblWeapType.Name = "lblWeapType";
-            this.lblWeapType.Size = new System.Drawing.Size(73, 13);
+            this.lblWeapType.Size = new System.Drawing.Size(78, 13);
             this.lblWeapType.TabIndex = 74;
-            this.lblWeapType.Text = "Tipo de Arma:";
+            this.lblWeapType.Text = "Weapon Type:";
             // 
             // txtEquipAction
             // 
-            this.txtEquipAction.Location = new System.Drawing.Point(312, 450);
+            this.txtEquipAction.Location = new System.Drawing.Point(296, 424);
             this.txtEquipAction.Name = "txtEquipAction";
-            this.txtEquipAction.Size = new System.Drawing.Size(251, 20);
+            this.txtEquipAction.Size = new System.Drawing.Size(267, 20);
             this.txtEquipAction.TabIndex = 73;
+            this.txtEquipAction.Validated += new System.EventHandler(this.txtEquipAction_Validated);
             // 
             // lblEquipAction
             // 
             this.lblEquipAction.AutoSize = true;
-            this.lblEquipAction.Location = new System.Drawing.Point(217, 453);
+            this.lblEquipAction.Location = new System.Drawing.Point(220, 427);
             this.lblEquipAction.Name = "lblEquipAction";
-            this.lblEquipAction.Size = new System.Drawing.Size(89, 13);
+            this.lblEquipAction.Size = new System.Drawing.Size(70, 13);
             this.lblEquipAction.TabIndex = 72;
-            this.lblEquipAction.Text = "Ação ao Equipar:";
+            this.lblEquipAction.Text = "Equip Action:";
             // 
             // txtLevel_TableUse
             // 
-            this.txtLevel_TableUse.Location = new System.Drawing.Point(321, 424);
+            this.txtLevel_TableUse.Location = new System.Drawing.Point(314, 450);
             this.txtLevel_TableUse.Name = "txtLevel_TableUse";
-            this.txtLevel_TableUse.Size = new System.Drawing.Size(242, 20);
+            this.txtLevel_TableUse.Size = new System.Drawing.Size(249, 20);
             this.txtLevel_TableUse.TabIndex = 71;
+            this.txtLevel_TableUse.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtLevel_TableUse.Validated += new System.EventHandler(this.txtLevel_TableUse_Validated);
             // 
             // lblLevel_TableUse
             // 
             this.lblLevel_TableUse.AutoSize = true;
-            this.lblLevel_TableUse.Location = new System.Drawing.Point(217, 427);
+            this.lblLevel_TableUse.Location = new System.Drawing.Point(220, 453);
             this.lblLevel_TableUse.Name = "lblLevel_TableUse";
-            this.lblLevel_TableUse.Size = new System.Drawing.Size(98, 13);
+            this.lblLevel_TableUse.Size = new System.Drawing.Size(88, 13);
             this.lblLevel_TableUse.TabIndex = 70;
-            this.lblLevel_TableUse.Text = "\"Level_TableUse\":";
+            this.lblLevel_TableUse.Text = "Level_TableUse:";
             // 
             // txtPickAction
             // 
-            this.txtPickAction.Location = new System.Drawing.Point(304, 398);
+            this.txtPickAction.Location = new System.Drawing.Point(290, 398);
             this.txtPickAction.Name = "txtPickAction";
-            this.txtPickAction.Size = new System.Drawing.Size(259, 20);
+            this.txtPickAction.Size = new System.Drawing.Size(273, 20);
             this.txtPickAction.TabIndex = 69;
+            this.txtPickAction.Validated += new System.EventHandler(this.txtPickAction_Validated);
             // 
             // lblPickAction
             // 
             this.lblPickAction.AutoSize = true;
-            this.lblPickAction.Location = new System.Drawing.Point(217, 401);
+            this.lblPickAction.Location = new System.Drawing.Point(220, 401);
             this.lblPickAction.Name = "lblPickAction";
-            this.lblPickAction.Size = new System.Drawing.Size(81, 13);
+            this.lblPickAction.Size = new System.Drawing.Size(64, 13);
             this.lblPickAction.TabIndex = 68;
-            this.lblPickAction.Text = "Ação ao Pegar:";
+            this.lblPickAction.Text = "Pick Action:";
             // 
             // txtEquipCondition
             // 
-            this.txtEquipCondition.Location = new System.Drawing.Point(341, 372);
+            this.txtEquipCondition.Location = new System.Drawing.Point(310, 372);
             this.txtEquipCondition.Name = "txtEquipCondition";
-            this.txtEquipCondition.Size = new System.Drawing.Size(222, 20);
+            this.txtEquipCondition.Size = new System.Drawing.Size(253, 20);
             this.txtEquipCondition.TabIndex = 67;
+            this.txtEquipCondition.Validated += new System.EventHandler(this.txtEquipCondition_Validated);
             // 
             // lblEquipCondition
             // 
             this.lblEquipCondition.AutoSize = true;
-            this.lblEquipCondition.Location = new System.Drawing.Point(217, 375);
+            this.lblEquipCondition.Location = new System.Drawing.Point(220, 375);
             this.lblEquipCondition.Name = "lblEquipCondition";
-            this.lblEquipCondition.Size = new System.Drawing.Size(118, 13);
+            this.lblEquipCondition.Size = new System.Drawing.Size(84, 13);
             this.lblEquipCondition.TabIndex = 66;
-            this.lblEquipCondition.Text = "Condição para Equipar:";
+            this.lblEquipCondition.Text = "Equip Condition:";
             // 
             // txtUseCondition
             // 
-            this.txtUseCondition.Location = new System.Drawing.Point(315, 346);
+            this.txtUseCondition.Location = new System.Drawing.Point(302, 346);
             this.txtUseCondition.Name = "txtUseCondition";
-            this.txtUseCondition.Size = new System.Drawing.Size(248, 20);
+            this.txtUseCondition.Size = new System.Drawing.Size(261, 20);
             this.txtUseCondition.TabIndex = 65;
+            this.txtUseCondition.Validated += new System.EventHandler(this.txtUseCondition_Validated);
             // 
             // lblUseCondition
             // 
             this.lblUseCondition.AutoSize = true;
-            this.lblUseCondition.Location = new System.Drawing.Point(217, 349);
+            this.lblUseCondition.Location = new System.Drawing.Point(220, 349);
             this.lblUseCondition.Name = "lblUseCondition";
-            this.lblUseCondition.Size = new System.Drawing.Size(92, 13);
+            this.lblUseCondition.Size = new System.Drawing.Size(76, 13);
             this.lblUseCondition.TabIndex = 64;
-            this.lblUseCondition.Text = "Condição de Uso:";
+            this.lblUseCondition.Text = "Use Condition:";
             // 
             // txtMaxHardiness
             // 
-            this.txtMaxHardiness.Location = new System.Drawing.Point(327, 320);
+            this.txtMaxHardiness.Location = new System.Drawing.Point(306, 320);
             this.txtMaxHardiness.Name = "txtMaxHardiness";
-            this.txtMaxHardiness.Size = new System.Drawing.Size(236, 20);
+            this.txtMaxHardiness.Size = new System.Drawing.Size(257, 20);
             this.txtMaxHardiness.TabIndex = 63;
+            this.txtMaxHardiness.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtMaxHardiness.Validated += new System.EventHandler(this.txtMaxHardiness_Validated);
             // 
             // lblMaxHardiness
             // 
             this.lblMaxHardiness.AutoSize = true;
-            this.lblMaxHardiness.Location = new System.Drawing.Point(217, 323);
+            this.lblMaxHardiness.Location = new System.Drawing.Point(220, 323);
             this.lblMaxHardiness.Name = "lblMaxHardiness";
-            this.lblMaxHardiness.Size = new System.Drawing.Size(104, 13);
+            this.lblMaxHardiness.Size = new System.Drawing.Size(80, 13);
             this.lblMaxHardiness.TabIndex = 62;
-            this.lblMaxHardiness.Text = "Máxima Resistência:";
+            this.lblMaxHardiness.Text = "Max Hardiness:";
             // 
             // chkBothHands
             // 
@@ -690,19 +699,21 @@
             // 
             // txtCardPoints
             // 
-            this.txtCardPoints.Location = new System.Drawing.Point(311, 294);
+            this.txtCardPoints.Location = new System.Drawing.Point(290, 294);
             this.txtCardPoints.Name = "txtCardPoints";
-            this.txtCardPoints.Size = new System.Drawing.Size(147, 20);
+            this.txtCardPoints.Size = new System.Drawing.Size(168, 20);
             this.txtCardPoints.TabIndex = 60;
+            this.txtCardPoints.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtCardPoints.Validated += new System.EventHandler(this.txtCardPoints_Validated);
             // 
             // lblCardPoints
             // 
             this.lblCardPoints.AutoSize = true;
             this.lblCardPoints.Location = new System.Drawing.Point(220, 297);
             this.lblCardPoints.Name = "lblCardPoints";
-            this.lblCardPoints.Size = new System.Drawing.Size(85, 13);
+            this.lblCardPoints.Size = new System.Drawing.Size(64, 13);
             this.lblCardPoints.TabIndex = 59;
-            this.lblCardPoints.Text = "\"m_CardPoints\":";
+            this.lblCardPoints.Text = "Card Points:";
             // 
             // chkSingle
             // 
@@ -739,67 +750,75 @@
             // 
             // txtValue
             // 
-            this.txtValue.Location = new System.Drawing.Point(314, 268);
+            this.txtValue.Location = new System.Drawing.Point(263, 268);
             this.txtValue.Name = "txtValue";
-            this.txtValue.Size = new System.Drawing.Size(144, 20);
+            this.txtValue.Size = new System.Drawing.Size(195, 20);
             this.txtValue.TabIndex = 55;
+            this.txtValue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtValue.Validated += new System.EventHandler(this.txtValue_Validated);
             // 
             // lblValue
             // 
             this.lblValue.AutoSize = true;
             this.lblValue.Location = new System.Drawing.Point(220, 271);
             this.lblValue.Name = "lblValue";
-            this.lblValue.Size = new System.Drawing.Size(88, 13);
+            this.lblValue.Size = new System.Drawing.Size(37, 13);
             this.lblValue.TabIndex = 54;
-            this.lblValue.Text = "Valor de Compra:";
+            this.lblValue.Text = "Value:";
             // 
             // txtLimitTime
             // 
-            this.txtLimitTime.Location = new System.Drawing.Point(299, 242);
+            this.txtLimitTime.Location = new System.Drawing.Point(283, 242);
             this.txtLimitTime.Name = "txtLimitTime";
-            this.txtLimitTime.Size = new System.Drawing.Size(159, 20);
+            this.txtLimitTime.Size = new System.Drawing.Size(175, 20);
             this.txtLimitTime.TabIndex = 53;
+            this.txtLimitTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtLimitTime.Validated += new System.EventHandler(this.txtLimitTime_Validated);
             // 
             // lblLimitTime
             // 
             this.lblLimitTime.AutoSize = true;
             this.lblLimitTime.Location = new System.Drawing.Point(220, 245);
             this.lblLimitTime.Name = "lblLimitTime";
-            this.lblLimitTime.Size = new System.Drawing.Size(73, 13);
+            this.lblLimitTime.Size = new System.Drawing.Size(57, 13);
             this.lblLimitTime.TabIndex = 52;
-            this.lblLimitTime.Text = "Tempo Limite:";
+            this.lblLimitTime.Text = "Limit Time:";
             // 
             // txtMaxCount
             // 
-            this.txtMaxCount.Location = new System.Drawing.Point(330, 216);
+            this.txtMaxCount.Location = new System.Drawing.Point(295, 216);
             this.txtMaxCount.Name = "txtMaxCount";
-            this.txtMaxCount.Size = new System.Drawing.Size(128, 20);
+            this.txtMaxCount.Size = new System.Drawing.Size(163, 20);
             this.txtMaxCount.TabIndex = 51;
+            this.txtMaxCount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtMaxCount.Validated += new System.EventHandler(this.txtMaxCount_Validated);
             // 
             // lblMaxCount
             // 
             this.lblMaxCount.AutoSize = true;
             this.lblMaxCount.Location = new System.Drawing.Point(220, 219);
             this.lblMaxCount.Name = "lblMaxCount";
-            this.lblMaxCount.Size = new System.Drawing.Size(104, 13);
+            this.lblMaxCount.Size = new System.Drawing.Size(69, 13);
             this.lblMaxCount.TabIndex = 50;
-            this.lblMaxCount.Text = "Quantidade Máxima:";
+            this.lblMaxCount.Text = "Max Amount:";
             // 
             // txtInitCount
             // 
-            this.txtInitCount.Location = new System.Drawing.Point(321, 190);
+            this.txtInitCount.Location = new System.Drawing.Point(289, 190);
             this.txtInitCount.Name = "txtInitCount";
-            this.txtInitCount.Size = new System.Drawing.Size(137, 20);
+            this.txtInitCount.Size = new System.Drawing.Size(169, 20);
             this.txtInitCount.TabIndex = 49;
+            this.txtInitCount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtInitCount.Validated += new System.EventHandler(this.txtInitCount_Validated);
             // 
             // lblInitCount
             // 
             this.lblInitCount.AutoSize = true;
             this.lblInitCount.Location = new System.Drawing.Point(220, 193);
             this.lblInitCount.Name = "lblInitCount";
-            this.lblInitCount.Size = new System.Drawing.Size(95, 13);
+            this.lblInitCount.Size = new System.Drawing.Size(63, 13);
             this.lblInitCount.TabIndex = 48;
-            this.lblInitCount.Text = "Quantidade Inicial:";
+            this.lblInitCount.Text = "Init Amount:";
             // 
             // chkCountable
             // 
@@ -820,19 +839,20 @@
             "Equipment",
             "Tipo 2",
             "Tipo 3"});
-            this.cmbUseType.Location = new System.Drawing.Point(393, 138);
+            this.cmbUseType.Location = new System.Drawing.Point(383, 138);
             this.cmbUseType.Name = "cmbUseType";
-            this.cmbUseType.Size = new System.Drawing.Size(170, 21);
+            this.cmbUseType.Size = new System.Drawing.Size(180, 21);
             this.cmbUseType.TabIndex = 46;
+            this.cmbUseType.SelectedIndexChanged += new System.EventHandler(this.cmbUseType_SelectedIndexChanged);
             // 
             // lblUseType
             // 
             this.lblUseType.AutoSize = true;
             this.lblUseType.Location = new System.Drawing.Point(321, 141);
             this.lblUseType.Name = "lblUseType";
-            this.lblUseType.Size = new System.Drawing.Size(66, 13);
+            this.lblUseType.Size = new System.Drawing.Size(56, 13);
             this.lblUseType.TabIndex = 45;
-            this.lblUseType.Text = "Tipo de uso:";
+            this.lblUseType.Text = "Use Type:";
             // 
             // chkCanSmithing
             // 
@@ -960,6 +980,8 @@
             this.txtDecomposeId.Name = "txtDecomposeId";
             this.txtDecomposeId.Size = new System.Drawing.Size(113, 20);
             this.txtDecomposeId.TabIndex = 34;
+            this.txtDecomposeId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtDecomposeId.Validated += new System.EventHandler(this.txtDecomposeId_Validated);
             // 
             // lblDecomposeId
             // 
@@ -976,6 +998,7 @@
             this.txtFactor.Name = "txtFactor";
             this.txtFactor.Size = new System.Drawing.Size(154, 20);
             this.txtFactor.TabIndex = 32;
+            this.txtFactor.Validated += new System.EventHandler(this.txtFactor_Validated);
             // 
             // lblFactor
             // 
@@ -992,6 +1015,8 @@
             this.txtDefaultAttribNum.Name = "txtDefaultAttribNum";
             this.txtDefaultAttribNum.Size = new System.Drawing.Size(88, 20);
             this.txtDefaultAttribNum.TabIndex = 30;
+            this.txtDefaultAttribNum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtDefaultAttribNum.Validated += new System.EventHandler(this.txtDefaultAttribNum_Validated);
             // 
             // lblAttribNum
             // 
@@ -1008,6 +1033,8 @@
             this.txtDefaultAttrib.Name = "txtDefaultAttrib";
             this.txtDefaultAttrib.Size = new System.Drawing.Size(140, 20);
             this.txtDefaultAttrib.TabIndex = 28;
+            this.txtDefaultAttrib.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtDefaultAttrib.Validated += new System.EventHandler(this.txtDefaultAttrib_Validated);
             // 
             // lblDefaultAttrib
             // 
@@ -1118,19 +1145,20 @@
             "Fairy",
             "Tamer",
             "All"});
-            this.cmbParty.Location = new System.Drawing.Point(368, 112);
+            this.cmbParty.Location = new System.Drawing.Point(361, 112);
             this.cmbParty.Name = "cmbParty";
-            this.cmbParty.Size = new System.Drawing.Size(195, 21);
+            this.cmbParty.Size = new System.Drawing.Size(202, 21);
             this.cmbParty.TabIndex = 16;
+            this.cmbParty.SelectedIndexChanged += new System.EventHandler(this.cmbParty_SelectedIndexChanged);
             // 
             // lblParty
             // 
             this.lblParty.AutoSize = true;
             this.lblParty.Location = new System.Drawing.Point(321, 115);
             this.lblParty.Name = "lblParty";
-            this.lblParty.Size = new System.Drawing.Size(41, 13);
+            this.lblParty.Size = new System.Drawing.Size(34, 13);
             this.lblParty.TabIndex = 15;
-            this.lblParty.Text = "Classe:";
+            this.lblParty.Text = "Party:";
             // 
             // cmbColor
             // 
@@ -1144,19 +1172,20 @@
             "Sky Blue",
             "Jade Green",
             "Platinum"});
-            this.cmbColor.Location = new System.Drawing.Point(353, 86);
+            this.cmbColor.Location = new System.Drawing.Point(361, 86);
             this.cmbColor.Name = "cmbColor";
-            this.cmbColor.Size = new System.Drawing.Size(210, 21);
+            this.cmbColor.Size = new System.Drawing.Size(202, 21);
             this.cmbColor.TabIndex = 14;
+            this.cmbColor.SelectedIndexChanged += new System.EventHandler(this.cmbColor_SelectedIndexChanged);
             // 
             // lblColor
             // 
             this.lblColor.AutoSize = true;
             this.lblColor.Location = new System.Drawing.Point(321, 89);
             this.lblColor.Name = "lblColor";
-            this.lblColor.Size = new System.Drawing.Size(26, 13);
+            this.lblColor.Size = new System.Drawing.Size(34, 13);
             this.lblColor.TabIndex = 13;
-            this.lblColor.Text = "Cor:";
+            this.lblColor.Text = "Color:";
             // 
             // cmbType
             // 
@@ -1240,19 +1269,20 @@
             "181: Recruiting Order",
             "182: Horse Seal",
             "200: Item Location"});
-            this.cmbType.Location = new System.Drawing.Point(358, 60);
+            this.cmbType.Location = new System.Drawing.Point(361, 60);
             this.cmbType.Name = "cmbType";
-            this.cmbType.Size = new System.Drawing.Size(205, 21);
+            this.cmbType.Size = new System.Drawing.Size(202, 21);
             this.cmbType.TabIndex = 12;
+            this.cmbType.SelectedIndexChanged += new System.EventHandler(this.cmbType_SelectedIndexChanged);
             // 
             // lblType
             // 
             this.lblType.AutoSize = true;
             this.lblType.Location = new System.Drawing.Point(321, 64);
             this.lblType.Name = "lblType";
-            this.lblType.Size = new System.Drawing.Size(31, 13);
+            this.lblType.Size = new System.Drawing.Size(34, 13);
             this.lblType.TabIndex = 11;
-            this.lblType.Text = "Tipo:";
+            this.lblType.Text = "Type:";
             // 
             // txtDesc
             // 
@@ -1441,269 +1471,291 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(6);
             this.tabPage2.Size = new System.Drawing.Size(572, 479);
             this.tabPage2.TabIndex = 3;
-            this.tabPage2.Text = "Página 2";
+            this.tabPage2.Text = "Page 2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // txtTargetRange
             // 
             this.txtTargetRange.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTargetRange.Location = new System.Drawing.Point(290, 268);
+            this.txtTargetRange.Location = new System.Drawing.Point(278, 268);
             this.txtTargetRange.Name = "txtTargetRange";
-            this.txtTargetRange.Size = new System.Drawing.Size(68, 20);
+            this.txtTargetRange.Size = new System.Drawing.Size(80, 20);
             this.txtTargetRange.TabIndex = 83;
+            this.txtTargetRange.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtTargetRange.Validated += new System.EventHandler(this.txtTargetRange_Validated);
             // 
             // lblTargetRange
             // 
             this.lblTargetRange.AutoSize = true;
             this.lblTargetRange.Location = new System.Drawing.Point(196, 273);
             this.lblTargetRange.Name = "lblTargetRange";
-            this.lblTargetRange.Size = new System.Drawing.Size(88, 13);
+            this.lblTargetRange.Size = new System.Drawing.Size(76, 13);
             this.lblTargetRange.TabIndex = 82;
-            this.lblTargetRange.Text = "Alcance do Alvo:";
+            this.lblTargetRange.Text = "Target Range:";
             // 
             // txtTargetType
             // 
             this.txtTargetType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTargetType.Location = new System.Drawing.Point(266, 242);
+            this.txtTargetType.Location = new System.Drawing.Point(270, 242);
             this.txtTargetType.Name = "txtTargetType";
-            this.txtTargetType.Size = new System.Drawing.Size(92, 20);
+            this.txtTargetType.Size = new System.Drawing.Size(88, 20);
             this.txtTargetType.TabIndex = 81;
+            this.txtTargetType.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtTargetType.Validated += new System.EventHandler(this.txtTargetType_Validated);
             // 
             // txtBenefit
             // 
             this.txtBenefit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBenefit.Location = new System.Drawing.Point(255, 216);
+            this.txtBenefit.Location = new System.Drawing.Point(295, 216);
             this.txtBenefit.Name = "txtBenefit";
-            this.txtBenefit.Size = new System.Drawing.Size(103, 20);
+            this.txtBenefit.Size = new System.Drawing.Size(63, 20);
             this.txtBenefit.TabIndex = 80;
+            this.txtBenefit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtBenefit.Validated += new System.EventHandler(this.txtBenefit_Validated);
             // 
             // txtLoadingCount
             // 
             this.txtLoadingCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtLoadingCount.Location = new System.Drawing.Point(467, 450);
+            this.txtLoadingCount.Location = new System.Drawing.Point(449, 450);
             this.txtLoadingCount.Name = "txtLoadingCount";
-            this.txtLoadingCount.Size = new System.Drawing.Size(96, 20);
+            this.txtLoadingCount.Size = new System.Drawing.Size(114, 20);
             this.txtLoadingCount.TabIndex = 79;
+            this.txtLoadingCount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtLoadingCount.Validated += new System.EventHandler(this.txtLoadingCount_Validated);
             // 
             // lblLoadingCount
             // 
             this.lblLoadingCount.AutoSize = true;
-            this.lblLoadingCount.Location = new System.Drawing.Point(374, 453);
+            this.lblLoadingCount.Location = new System.Drawing.Point(364, 453);
             this.lblLoadingCount.Name = "lblLoadingCount";
-            this.lblLoadingCount.Size = new System.Drawing.Size(87, 13);
+            this.lblLoadingCount.Size = new System.Drawing.Size(79, 13);
             this.lblLoadingCount.TabIndex = 78;
-            this.lblLoadingCount.Text = "Numero de usos:";
+            this.lblLoadingCount.Text = "Loading Count:";
             // 
             // txtLoadingTime
             // 
             this.txtLoadingTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtLoadingTime.Location = new System.Drawing.Point(280, 450);
+            this.txtLoadingTime.Location = new System.Drawing.Point(276, 450);
             this.txtLoadingTime.Name = "txtLoadingTime";
-            this.txtLoadingTime.Size = new System.Drawing.Size(78, 20);
+            this.txtLoadingTime.Size = new System.Drawing.Size(82, 20);
             this.txtLoadingTime.TabIndex = 77;
+            this.txtLoadingTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtLoadingTime.Validated += new System.EventHandler(this.txtLoadingTime_Validated);
             // 
             // lblLoadingTime
             // 
             this.lblLoadingTime.AutoSize = true;
             this.lblLoadingTime.Location = new System.Drawing.Point(196, 453);
             this.lblLoadingTime.Name = "lblLoadingTime";
-            this.lblLoadingTime.Size = new System.Drawing.Size(78, 13);
+            this.lblLoadingTime.Size = new System.Drawing.Size(74, 13);
             this.lblLoadingTime.TabIndex = 76;
-            this.lblLoadingTime.Text = "Tempo de uso:";
+            this.lblLoadingTime.Text = "Loading Time:";
             // 
             // txtBeforeLoadingTarget
             // 
             this.txtBeforeLoadingTarget.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBeforeLoadingTarget.Location = new System.Drawing.Point(306, 424);
+            this.txtBeforeLoadingTarget.Location = new System.Drawing.Point(318, 424);
             this.txtBeforeLoadingTarget.Name = "txtBeforeLoadingTarget";
-            this.txtBeforeLoadingTarget.Size = new System.Drawing.Size(257, 20);
+            this.txtBeforeLoadingTarget.Size = new System.Drawing.Size(245, 20);
             this.txtBeforeLoadingTarget.TabIndex = 75;
+            this.txtBeforeLoadingTarget.Validated += new System.EventHandler(this.txtBeforeLoadingTarget_Validated);
             // 
             // lblBeforeLoadingTarget
             // 
             this.lblBeforeLoadingTarget.AutoSize = true;
             this.lblBeforeLoadingTarget.Location = new System.Drawing.Point(196, 429);
             this.lblBeforeLoadingTarget.Name = "lblBeforeLoadingTarget";
-            this.lblBeforeLoadingTarget.Size = new System.Drawing.Size(104, 13);
+            this.lblBeforeLoadingTarget.Size = new System.Drawing.Size(116, 13);
             this.lblBeforeLoadingTarget.TabIndex = 74;
-            this.lblBeforeLoadingTarget.Text = "Antes o uso no alvo:";
+            this.lblBeforeLoadingTarget.Text = "Before Loading Target:";
             // 
             // txtBeforeLoadingSelf
             // 
             this.txtBeforeLoadingSelf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBeforeLoadingSelf.Location = new System.Drawing.Point(296, 398);
+            this.txtBeforeLoadingSelf.Location = new System.Drawing.Point(305, 398);
             this.txtBeforeLoadingSelf.Name = "txtBeforeLoadingSelf";
-            this.txtBeforeLoadingSelf.Size = new System.Drawing.Size(267, 20);
+            this.txtBeforeLoadingSelf.Size = new System.Drawing.Size(258, 20);
             this.txtBeforeLoadingSelf.TabIndex = 73;
+            this.txtBeforeLoadingSelf.Validated += new System.EventHandler(this.txtBeforeLoadingSelf_Validated);
             // 
             // lblBeforeLoadingSelf
             // 
             this.lblBeforeLoadingSelf.AutoSize = true;
             this.lblBeforeLoadingSelf.Location = new System.Drawing.Point(196, 403);
             this.lblBeforeLoadingSelf.Name = "lblBeforeLoadingSelf";
-            this.lblBeforeLoadingSelf.Size = new System.Drawing.Size(95, 13);
+            this.lblBeforeLoadingSelf.Size = new System.Drawing.Size(103, 13);
             this.lblBeforeLoadingSelf.TabIndex = 72;
-            this.lblBeforeLoadingSelf.Text = "Antes o uso em sí:";
+            this.lblBeforeLoadingSelf.Text = "Before Loading Self:";
             // 
             // txtBeforeLoadingTmpTarget
             // 
             this.txtBeforeLoadingTmpTarget.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBeforeLoadingTmpTarget.Location = new System.Drawing.Point(330, 372);
+            this.txtBeforeLoadingTmpTarget.Location = new System.Drawing.Point(342, 372);
             this.txtBeforeLoadingTmpTarget.Name = "txtBeforeLoadingTmpTarget";
-            this.txtBeforeLoadingTmpTarget.Size = new System.Drawing.Size(233, 20);
+            this.txtBeforeLoadingTmpTarget.Size = new System.Drawing.Size(221, 20);
             this.txtBeforeLoadingTmpTarget.TabIndex = 71;
+            this.txtBeforeLoadingTmpTarget.Validated += new System.EventHandler(this.txtBeforeLoadingTmpTarget_Validated);
             // 
             // lblBeforeLoadingTmpTarget
             // 
             this.lblBeforeLoadingTmpTarget.AutoSize = true;
             this.lblBeforeLoadingTmpTarget.Location = new System.Drawing.Point(196, 377);
             this.lblBeforeLoadingTmpTarget.Name = "lblBeforeLoadingTmpTarget";
-            this.lblBeforeLoadingTmpTarget.Size = new System.Drawing.Size(130, 13);
+            this.lblBeforeLoadingTmpTarget.Size = new System.Drawing.Size(140, 13);
             this.lblBeforeLoadingTmpTarget.TabIndex = 70;
-            this.lblBeforeLoadingTmpTarget.Text = "Antes o uso no alvo (tmp):";
+            this.lblBeforeLoadingTmpTarget.Text = "Before Loadin Target (Tmp):";
             // 
             // txtBeforeLoadingTmpSelf
             // 
             this.txtBeforeLoadingTmpSelf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBeforeLoadingTmpSelf.Location = new System.Drawing.Point(323, 346);
+            this.txtBeforeLoadingTmpSelf.Location = new System.Drawing.Point(335, 346);
             this.txtBeforeLoadingTmpSelf.Name = "txtBeforeLoadingTmpSelf";
-            this.txtBeforeLoadingTmpSelf.Size = new System.Drawing.Size(240, 20);
+            this.txtBeforeLoadingTmpSelf.Size = new System.Drawing.Size(228, 20);
             this.txtBeforeLoadingTmpSelf.TabIndex = 69;
+            this.txtBeforeLoadingTmpSelf.Validated += new System.EventHandler(this.txtBeforeLoadingTmpSelf_Validated);
             // 
             // lblBeforeLoadingTmpSelf
             // 
             this.lblBeforeLoadingTmpSelf.AutoSize = true;
             this.lblBeforeLoadingTmpSelf.Location = new System.Drawing.Point(196, 351);
             this.lblBeforeLoadingTmpSelf.Name = "lblBeforeLoadingTmpSelf";
-            this.lblBeforeLoadingTmpSelf.Size = new System.Drawing.Size(121, 13);
+            this.lblBeforeLoadingTmpSelf.Size = new System.Drawing.Size(133, 13);
             this.lblBeforeLoadingTmpSelf.TabIndex = 68;
-            this.lblBeforeLoadingTmpSelf.Text = "Antes o uso em sí (tmp):";
+            this.lblBeforeLoadingTmpSelf.Text = "Before Loading Self (Tmp):";
             // 
             // txtPreTime
             // 
             this.txtPreTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPreTime.Location = new System.Drawing.Point(467, 320);
+            this.txtPreTime.Location = new System.Drawing.Point(422, 320);
             this.txtPreTime.Name = "txtPreTime";
-            this.txtPreTime.Size = new System.Drawing.Size(96, 20);
+            this.txtPreTime.Size = new System.Drawing.Size(141, 20);
             this.txtPreTime.TabIndex = 67;
+            this.txtPreTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtPreTime.Validated += new System.EventHandler(this.txtPreTime_Validated);
             // 
             // lblPreTime
             // 
             this.lblPreTime.AutoSize = true;
-            this.lblPreTime.Location = new System.Drawing.Point(374, 323);
+            this.lblPreTime.Location = new System.Drawing.Point(364, 323);
             this.lblPreTime.Name = "lblPreTime";
-            this.lblPreTime.Size = new System.Drawing.Size(87, 13);
+            this.lblPreTime.Size = new System.Drawing.Size(52, 13);
             this.lblPreTime.TabIndex = 66;
-            this.lblPreTime.Text = "Tempo para uso:";
+            this.lblPreTime.Text = "Pre Time:";
             // 
             // txtTargetRadius
             // 
             this.txtTargetRadius.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTargetRadius.Location = new System.Drawing.Point(290, 320);
+            this.txtTargetRadius.Location = new System.Drawing.Point(279, 320);
             this.txtTargetRadius.Name = "txtTargetRadius";
-            this.txtTargetRadius.Size = new System.Drawing.Size(68, 20);
+            this.txtTargetRadius.Size = new System.Drawing.Size(79, 20);
             this.txtTargetRadius.TabIndex = 65;
+            this.txtTargetRadius.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtTargetRadius.Validated += new System.EventHandler(this.txtTargetRadius_Validated);
             // 
             // lblTargetRadius
             // 
             this.lblTargetRadius.AutoSize = true;
             this.lblTargetRadius.Location = new System.Drawing.Point(196, 325);
             this.lblTargetRadius.Name = "lblTargetRadius";
-            this.lblTargetRadius.Size = new System.Drawing.Size(88, 13);
+            this.lblTargetRadius.Size = new System.Drawing.Size(77, 13);
             this.lblTargetRadius.TabIndex = 64;
-            this.lblTargetRadius.Text = "Raio de alcance:";
+            this.lblTargetRadius.Text = "Target Radius:";
             // 
             // txtTargetCondition
             // 
             this.txtTargetCondition.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTargetCondition.Location = new System.Drawing.Point(296, 294);
+            this.txtTargetCondition.Location = new System.Drawing.Point(290, 294);
             this.txtTargetCondition.Name = "txtTargetCondition";
-            this.txtTargetCondition.Size = new System.Drawing.Size(267, 20);
+            this.txtTargetCondition.Size = new System.Drawing.Size(273, 20);
             this.txtTargetCondition.TabIndex = 63;
+            this.txtTargetCondition.Validated += new System.EventHandler(this.txtTargetCondition_Validated);
             // 
             // lblTargetCondition
             // 
             this.lblTargetCondition.AutoSize = true;
             this.lblTargetCondition.Location = new System.Drawing.Point(196, 297);
             this.lblTargetCondition.Name = "lblTargetCondition";
-            this.lblTargetCondition.Size = new System.Drawing.Size(94, 13);
+            this.lblTargetCondition.Size = new System.Drawing.Size(88, 13);
             this.lblTargetCondition.TabIndex = 62;
-            this.lblTargetCondition.Text = "Condição do Alvo:";
+            this.lblTargetCondition.Text = "Target Condition:";
             // 
             // txtTargetCount
             // 
             this.txtTargetCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTargetCount.Location = new System.Drawing.Point(471, 243);
+            this.txtTargetCount.Location = new System.Drawing.Point(442, 243);
             this.txtTargetCount.Name = "txtTargetCount";
-            this.txtTargetCount.Size = new System.Drawing.Size(92, 20);
+            this.txtTargetCount.Size = new System.Drawing.Size(121, 20);
             this.txtTargetCount.TabIndex = 61;
+            this.txtTargetCount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtTargetCount.Validated += new System.EventHandler(this.txtTargetCount_Validated);
             // 
             // lblTargetCount
             // 
             this.lblTargetCount.AutoSize = true;
-            this.lblTargetCount.Location = new System.Drawing.Point(374, 246);
+            this.lblTargetCount.Location = new System.Drawing.Point(364, 246);
             this.lblTargetCount.Name = "lblTargetCount";
-            this.lblTargetCount.Size = new System.Drawing.Size(91, 13);
+            this.lblTargetCount.Size = new System.Drawing.Size(72, 13);
             this.lblTargetCount.TabIndex = 60;
-            this.lblTargetCount.Text = "Numero de Alvos:";
+            this.lblTargetCount.Text = "Target Count:";
             // 
             // txtSpecial
             // 
             this.txtSpecial.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSpecial.Location = new System.Drawing.Point(435, 217);
+            this.txtSpecial.Location = new System.Drawing.Point(415, 217);
             this.txtSpecial.Name = "txtSpecial";
-            this.txtSpecial.Size = new System.Drawing.Size(128, 20);
+            this.txtSpecial.Size = new System.Drawing.Size(148, 20);
             this.txtSpecial.TabIndex = 59;
+            this.txtSpecial.Validated += new System.EventHandler(this.txtSpecial_Validated);
             // 
             // lblSpecial
             // 
             this.lblSpecial.AutoSize = true;
-            this.lblSpecial.Location = new System.Drawing.Point(374, 220);
+            this.lblSpecial.Location = new System.Drawing.Point(364, 220);
             this.lblSpecial.Name = "lblSpecial";
-            this.lblSpecial.Size = new System.Drawing.Size(55, 13);
+            this.lblSpecial.Size = new System.Drawing.Size(45, 13);
             this.lblSpecial.TabIndex = 58;
-            this.lblSpecial.Text = "\"Special\":";
+            this.lblSpecial.Text = "Special:";
             // 
             // lblTargetType
             // 
             this.lblTargetType.AutoSize = true;
-            this.lblTargetType.Location = new System.Drawing.Point(196, 247);
+            this.lblTargetType.Location = new System.Drawing.Point(196, 246);
             this.lblTargetType.Name = "lblTargetType";
-            this.lblTargetType.Size = new System.Drawing.Size(69, 13);
+            this.lblTargetType.Size = new System.Drawing.Size(68, 13);
             this.lblTargetType.TabIndex = 55;
-            this.lblTargetType.Text = "Tipo de alvo:";
+            this.lblTargetType.Text = "Target Type:";
             // 
             // lblBenefit
             // 
             this.lblBenefit.AutoSize = true;
-            this.lblBenefit.Location = new System.Drawing.Point(196, 220);
+            this.lblBenefit.Location = new System.Drawing.Point(246, 220);
             this.lblBenefit.Name = "lblBenefit";
-            this.lblBenefit.Size = new System.Drawing.Size(53, 13);
+            this.lblBenefit.Size = new System.Drawing.Size(43, 13);
             this.lblBenefit.TabIndex = 53;
-            this.lblBenefit.Text = "\"Benefit\":";
+            this.lblBenefit.Text = "Benefit:";
             // 
             // chkDungeonOnly
             // 
             this.chkDungeonOnly.AutoSize = true;
             this.chkDungeonOnly.Location = new System.Drawing.Point(16, 453);
             this.chkDungeonOnly.Name = "chkDungeonOnly";
-            this.chkDungeonOnly.Size = new System.Drawing.Size(113, 17);
+            this.chkDungeonOnly.Size = new System.Drawing.Size(100, 17);
             this.chkDungeonOnly.TabIndex = 52;
-            this.chkDungeonOnly.Text = "Apenas em Cave?";
+            this.chkDungeonOnly.Text = "Dungeon Only?";
             this.chkDungeonOnly.UseVisualStyleBackColor = true;
             this.chkDungeonOnly.CheckedChanged += new System.EventHandler(this.chkDungeonOnly_CheckedChanged);
             // 
@@ -1712,9 +1764,9 @@
             this.lblReleaseType.AutoSize = true;
             this.lblReleaseType.Location = new System.Drawing.Point(13, 428);
             this.lblReleaseType.Name = "lblReleaseType";
-            this.lblReleaseType.Size = new System.Drawing.Size(83, 13);
+            this.lblReleaseType.Size = new System.Drawing.Size(76, 13);
             this.lblReleaseType.TabIndex = 51;
-            this.lblReleaseType.Text = "\"ReleaseType\":";
+            this.lblReleaseType.Text = "Release Type:";
             // 
             // cmbReleaseType
             // 
@@ -1724,446 +1776,474 @@
             "Tipo 2",
             "Tipo 3",
             "Tipo 4"});
-            this.cmbReleaseType.Location = new System.Drawing.Point(102, 425);
+            this.cmbReleaseType.Location = new System.Drawing.Point(95, 425);
             this.cmbReleaseType.Name = "cmbReleaseType";
-            this.cmbReleaseType.Size = new System.Drawing.Size(87, 21);
+            this.cmbReleaseType.Size = new System.Drawing.Size(94, 21);
             this.cmbReleaseType.TabIndex = 50;
+            this.cmbReleaseType.SelectedIndexChanged += new System.EventHandler(this.cmbReleaseType_SelectedIndexChanged);
             // 
             // txtEndPose
             // 
-            this.txtEndPose.Location = new System.Drawing.Point(80, 399);
+            this.txtEndPose.Location = new System.Drawing.Point(75, 399);
             this.txtEndPose.Name = "txtEndPose";
-            this.txtEndPose.Size = new System.Drawing.Size(109, 20);
+            this.txtEndPose.Size = new System.Drawing.Size(114, 20);
             this.txtEndPose.TabIndex = 49;
+            this.txtEndPose.Validated += new System.EventHandler(this.txtEndPose_Validated);
             // 
             // lblEndPose
             // 
             this.lblEndPose.AutoSize = true;
             this.lblEndPose.Location = new System.Drawing.Point(13, 402);
             this.lblEndPose.Name = "lblEndPose";
-            this.lblEndPose.Size = new System.Drawing.Size(61, 13);
+            this.lblEndPose.Size = new System.Drawing.Size(56, 13);
             this.lblEndPose.TabIndex = 48;
-            this.lblEndPose.Text = "Pose Após:";
+            this.lblEndPose.Text = "End Pose:";
             // 
             // txtPrePose
             // 
-            this.txtPrePose.Location = new System.Drawing.Point(92, 373);
+            this.txtPrePose.Location = new System.Drawing.Point(72, 373);
             this.txtPrePose.Name = "txtPrePose";
-            this.txtPrePose.Size = new System.Drawing.Size(97, 20);
+            this.txtPrePose.Size = new System.Drawing.Size(117, 20);
             this.txtPrePose.TabIndex = 47;
+            this.txtPrePose.Validated += new System.EventHandler(this.txtPrePose_Validated);
             // 
             // lblPrePose
             // 
             this.lblPrePose.AutoSize = true;
             this.lblPrePose.Location = new System.Drawing.Point(13, 376);
             this.lblPrePose.Name = "lblPrePose";
-            this.lblPrePose.Size = new System.Drawing.Size(75, 13);
+            this.lblPrePose.Size = new System.Drawing.Size(53, 13);
             this.lblPrePose.TabIndex = 46;
-            this.lblPrePose.Text = "Pose Durante:";
+            this.lblPrePose.Text = "Pre Pose:";
             // 
             // txtPreStartPose
             // 
-            this.txtPreStartPose.Location = new System.Drawing.Point(83, 347);
+            this.txtPreStartPose.Location = new System.Drawing.Point(97, 347);
             this.txtPreStartPose.Name = "txtPreStartPose";
-            this.txtPreStartPose.Size = new System.Drawing.Size(106, 20);
+            this.txtPreStartPose.Size = new System.Drawing.Size(92, 20);
             this.txtPreStartPose.TabIndex = 45;
+            this.txtPreStartPose.Validated += new System.EventHandler(this.txtPreStartPose_Validated);
             // 
             // lblPreStartPose
             // 
             this.lblPreStartPose.AutoSize = true;
             this.lblPreStartPose.Location = new System.Drawing.Point(13, 350);
             this.lblPreStartPose.Name = "lblPreStartPose";
-            this.lblPreStartPose.Size = new System.Drawing.Size(64, 13);
+            this.lblPreStartPose.Size = new System.Drawing.Size(78, 13);
             this.lblPreStartPose.TabIndex = 44;
-            this.lblPreStartPose.Text = "Pose Inicial:";
+            this.lblPreStartPose.Text = "Pre Start Pose:";
             // 
             // txtTrumpAttackSkill
             // 
             this.txtTrumpAttackSkill.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTrumpAttackSkill.Location = new System.Drawing.Point(330, 191);
+            this.txtTrumpAttackSkill.Location = new System.Drawing.Point(348, 191);
             this.txtTrumpAttackSkill.Name = "txtTrumpAttackSkill";
-            this.txtTrumpAttackSkill.Size = new System.Drawing.Size(233, 20);
+            this.txtTrumpAttackSkill.Size = new System.Drawing.Size(215, 20);
             this.txtTrumpAttackSkill.TabIndex = 43;
+            this.txtTrumpAttackSkill.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtTrumpAttackSkill.Validated += new System.EventHandler(this.txtTrumpAttackSkill_Validated);
             // 
             // lblTrumpAttackSkill
             // 
             this.lblTrumpAttackSkill.AutoSize = true;
             this.lblTrumpAttackSkill.Location = new System.Drawing.Point(246, 194);
             this.lblTrumpAttackSkill.Name = "lblTrumpAttackSkill";
-            this.lblTrumpAttackSkill.Size = new System.Drawing.Size(78, 13);
+            this.lblTrumpAttackSkill.Size = new System.Drawing.Size(96, 13);
             this.lblTrumpAttackSkill.TabIndex = 42;
-            this.lblTrumpAttackSkill.Text = "Ataque normal:";
+            this.lblTrumpAttackSkill.Text = "Trump Attack Skill:";
             // 
             // txtTrumpTalents
             // 
             this.txtTrumpTalents.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTrumpTalents.Location = new System.Drawing.Point(303, 165);
+            this.txtTrumpTalents.Location = new System.Drawing.Point(330, 165);
             this.txtTrumpTalents.Name = "txtTrumpTalents";
-            this.txtTrumpTalents.Size = new System.Drawing.Size(260, 20);
+            this.txtTrumpTalents.Size = new System.Drawing.Size(233, 20);
             this.txtTrumpTalents.TabIndex = 41;
+            this.txtTrumpTalents.Validated += new System.EventHandler(this.txtTrumpTalents_Validated);
             // 
             // lblTrumpTalents
             // 
             this.lblTrumpTalents.AutoSize = true;
             this.lblTrumpTalents.Location = new System.Drawing.Point(246, 168);
             this.lblTrumpTalents.Name = "lblTrumpTalents";
-            this.lblTrumpTalents.Size = new System.Drawing.Size(51, 13);
+            this.lblTrumpTalents.Size = new System.Drawing.Size(78, 13);
             this.lblTrumpTalents.TabIndex = 40;
-            this.lblTrumpTalents.Text = "Talentos:";
+            this.lblTrumpTalents.Text = "Trump Talents:";
             // 
             // txtTrumpFinalSkills
             // 
             this.txtTrumpFinalSkills.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTrumpFinalSkills.Location = new System.Drawing.Point(347, 139);
+            this.txtTrumpFinalSkills.Location = new System.Drawing.Point(344, 139);
             this.txtTrumpFinalSkills.Name = "txtTrumpFinalSkills";
-            this.txtTrumpFinalSkills.Size = new System.Drawing.Size(216, 20);
+            this.txtTrumpFinalSkills.Size = new System.Drawing.Size(219, 20);
             this.txtTrumpFinalSkills.TabIndex = 39;
+            this.txtTrumpFinalSkills.Validated += new System.EventHandler(this.txtTrumpFinalSkills_Validated);
             // 
             // lblTrumpFinalSkills
             // 
             this.lblTrumpFinalSkills.AutoSize = true;
             this.lblTrumpFinalSkills.Location = new System.Drawing.Point(246, 142);
             this.lblTrumpFinalSkills.Name = "lblTrumpFinalSkills";
-            this.lblTrumpFinalSkills.Size = new System.Drawing.Size(95, 13);
+            this.lblTrumpFinalSkills.Size = new System.Drawing.Size(92, 13);
             this.lblTrumpFinalSkills.TabIndex = 38;
-            this.lblTrumpFinalSkills.Text = "Habilidades Finais:";
+            this.lblTrumpFinalSkills.Text = "Trump Final Skills:";
             // 
             // txtTrumpSkills
             // 
             this.txtTrumpSkills.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTrumpSkills.Location = new System.Drawing.Point(317, 113);
+            this.txtTrumpSkills.Location = new System.Drawing.Point(319, 113);
             this.txtTrumpSkills.Name = "txtTrumpSkills";
-            this.txtTrumpSkills.Size = new System.Drawing.Size(246, 20);
+            this.txtTrumpSkills.Size = new System.Drawing.Size(244, 20);
             this.txtTrumpSkills.TabIndex = 37;
+            this.txtTrumpSkills.Validated += new System.EventHandler(this.txtTrumpSkills_Validated);
             // 
             // lblTrumpSkills
             // 
             this.lblTrumpSkills.AutoSize = true;
             this.lblTrumpSkills.Location = new System.Drawing.Point(246, 116);
             this.lblTrumpSkills.Name = "lblTrumpSkills";
-            this.lblTrumpSkills.Size = new System.Drawing.Size(65, 13);
+            this.lblTrumpSkills.Size = new System.Drawing.Size(67, 13);
             this.lblTrumpSkills.TabIndex = 36;
-            this.lblTrumpSkills.Text = "Habilidades:";
+            this.lblTrumpSkills.Text = "Trump Skills:";
             // 
             // txtItemUseMessage
             // 
             this.txtItemUseMessage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtItemUseMessage.Location = new System.Drawing.Point(354, 87);
+            this.txtItemUseMessage.Location = new System.Drawing.Point(327, 87);
             this.txtItemUseMessage.Name = "txtItemUseMessage";
-            this.txtItemUseMessage.Size = new System.Drawing.Size(209, 20);
+            this.txtItemUseMessage.Size = new System.Drawing.Size(236, 20);
             this.txtItemUseMessage.TabIndex = 35;
+            this.txtItemUseMessage.Validated += new System.EventHandler(this.txtItemUseMessage_Validated);
             // 
             // lblItemUseMessage
             // 
             this.lblItemUseMessage.AutoSize = true;
             this.lblItemUseMessage.Location = new System.Drawing.Point(246, 90);
             this.lblItemUseMessage.Name = "lblItemUseMessage";
-            this.lblItemUseMessage.Size = new System.Drawing.Size(102, 13);
+            this.lblItemUseMessage.Size = new System.Drawing.Size(75, 13);
             this.lblItemUseMessage.TabIndex = 34;
-            this.lblItemUseMessage.Text = "Mensagem ao Usar:";
+            this.lblItemUseMessage.Text = "Use Message:";
             // 
             // txtGemmyType
             // 
-            this.txtGemmyType.Location = new System.Drawing.Point(98, 321);
+            this.txtGemmyType.Location = new System.Drawing.Point(91, 321);
             this.txtGemmyType.Name = "txtGemmyType";
-            this.txtGemmyType.Size = new System.Drawing.Size(91, 20);
+            this.txtGemmyType.Size = new System.Drawing.Size(98, 20);
             this.txtGemmyType.TabIndex = 33;
+            this.txtGemmyType.Validated += new System.EventHandler(this.txtGemmyType_Validated);
             // 
             // lblGemmyType
             // 
             this.lblGemmyType.AutoSize = true;
             this.lblGemmyType.Location = new System.Drawing.Point(13, 324);
             this.lblGemmyType.Name = "lblGemmyType";
-            this.lblGemmyType.Size = new System.Drawing.Size(79, 13);
+            this.lblGemmyType.Size = new System.Drawing.Size(72, 13);
             this.lblGemmyType.TabIndex = 32;
-            this.lblGemmyType.Text = "\"GemmyType\":";
+            this.lblGemmyType.Text = "Gemmy Type:";
             // 
             // txtGemmyLevel
             // 
-            this.txtGemmyLevel.Location = new System.Drawing.Point(100, 295);
+            this.txtGemmyLevel.Location = new System.Drawing.Point(93, 295);
             this.txtGemmyLevel.Name = "txtGemmyLevel";
-            this.txtGemmyLevel.Size = new System.Drawing.Size(89, 20);
+            this.txtGemmyLevel.Size = new System.Drawing.Size(96, 20);
             this.txtGemmyLevel.TabIndex = 31;
+            this.txtGemmyLevel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtGemmyLevel.Validated += new System.EventHandler(this.txtGemmyLevel_Validated);
             // 
             // lblGemmyLevel
             // 
             this.lblGemmyLevel.AutoSize = true;
             this.lblGemmyLevel.Location = new System.Drawing.Point(13, 298);
             this.lblGemmyLevel.Name = "lblGemmyLevel";
-            this.lblGemmyLevel.Size = new System.Drawing.Size(81, 13);
+            this.lblGemmyLevel.Size = new System.Drawing.Size(74, 13);
             this.lblGemmyLevel.TabIndex = 30;
-            this.lblGemmyLevel.Text = "\"GemmyLevel\":";
+            this.lblGemmyLevel.Text = "Gemmy Level:";
             // 
             // txtOtherParam3
             // 
             this.txtOtherParam3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtOtherParam3.Location = new System.Drawing.Point(359, 61);
+            this.txtOtherParam3.Location = new System.Drawing.Point(330, 61);
             this.txtOtherParam3.Name = "txtOtherParam3";
-            this.txtOtherParam3.Size = new System.Drawing.Size(204, 20);
+            this.txtOtherParam3.Size = new System.Drawing.Size(233, 20);
             this.txtOtherParam3.TabIndex = 29;
+            this.txtOtherParam3.Validated += new System.EventHandler(this.txtOtherParam3_Validated);
             // 
             // lblOtherParam3
             // 
             this.lblOtherParam3.AutoSize = true;
             this.lblOtherParam3.Location = new System.Drawing.Point(246, 64);
             this.lblOtherParam3.Name = "lblOtherParam3";
-            this.lblOtherParam3.Size = new System.Drawing.Size(106, 13);
+            this.lblOtherParam3.Size = new System.Drawing.Size(78, 13);
             this.lblOtherParam3.TabIndex = 28;
-            this.lblOtherParam3.Text = "Outros Parametros 3:";
+            this.lblOtherParam3.Text = "Other Param 3:";
             // 
             // txtOtherParam2
             // 
             this.txtOtherParam2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtOtherParam2.Location = new System.Drawing.Point(359, 35);
+            this.txtOtherParam2.Location = new System.Drawing.Point(330, 35);
             this.txtOtherParam2.Name = "txtOtherParam2";
-            this.txtOtherParam2.Size = new System.Drawing.Size(204, 20);
+            this.txtOtherParam2.Size = new System.Drawing.Size(233, 20);
             this.txtOtherParam2.TabIndex = 27;
+            this.txtOtherParam2.Validated += new System.EventHandler(this.txtOtherParam2_Validated);
             // 
             // lblOtherParam2
             // 
             this.lblOtherParam2.AutoSize = true;
             this.lblOtherParam2.Location = new System.Drawing.Point(246, 38);
             this.lblOtherParam2.Name = "lblOtherParam2";
-            this.lblOtherParam2.Size = new System.Drawing.Size(106, 13);
+            this.lblOtherParam2.Size = new System.Drawing.Size(78, 13);
             this.lblOtherParam2.TabIndex = 26;
-            this.lblOtherParam2.Text = "Outros Parametros 2:";
+            this.lblOtherParam2.Text = "Other Param 2:";
             // 
             // txtOtherParam
             // 
             this.txtOtherParam.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtOtherParam.Location = new System.Drawing.Point(359, 9);
+            this.txtOtherParam.Location = new System.Drawing.Point(321, 9);
             this.txtOtherParam.Name = "txtOtherParam";
-            this.txtOtherParam.Size = new System.Drawing.Size(204, 20);
+            this.txtOtherParam.Size = new System.Drawing.Size(242, 20);
             this.txtOtherParam.TabIndex = 25;
+            this.txtOtherParam.Validated += new System.EventHandler(this.txtOtherParam_Validated);
             // 
             // lblOtherParam
             // 
             this.lblOtherParam.AutoSize = true;
             this.lblOtherParam.Location = new System.Drawing.Point(246, 12);
             this.lblOtherParam.Name = "lblOtherParam";
-            this.lblOtherParam.Size = new System.Drawing.Size(106, 13);
+            this.lblOtherParam.Size = new System.Drawing.Size(69, 13);
             this.lblOtherParam.TabIndex = 24;
-            this.lblOtherParam.Text = "Outros Parametros 1:";
+            this.lblOtherParam.Text = "Other Param:";
             // 
             // txtInitValue
             // 
-            this.txtInitValue.Location = new System.Drawing.Point(80, 269);
+            this.txtInitValue.Location = new System.Drawing.Point(73, 269);
             this.txtInitValue.Name = "txtInitValue";
-            this.txtInitValue.Size = new System.Drawing.Size(109, 20);
+            this.txtInitValue.Size = new System.Drawing.Size(116, 20);
             this.txtInitValue.TabIndex = 23;
+            this.txtInitValue.Validated += new System.EventHandler(this.txtInitValue_Validated);
             // 
             // lblInitValue
             // 
             this.lblInitValue.AutoSize = true;
             this.lblInitValue.Location = new System.Drawing.Point(13, 272);
             this.lblInitValue.Name = "lblInitValue";
-            this.lblInitValue.Size = new System.Drawing.Size(61, 13);
+            this.lblInitValue.Size = new System.Drawing.Size(54, 13);
             this.lblInitValue.TabIndex = 22;
-            this.lblInitValue.Text = "\"InitValue\":";
+            this.lblInitValue.Text = "Init Value:";
             // 
             // txtEquipParry
             // 
-            this.txtEquipParry.Location = new System.Drawing.Point(117, 243);
+            this.txtEquipParry.Location = new System.Drawing.Point(53, 243);
             this.txtEquipParry.Name = "txtEquipParry";
-            this.txtEquipParry.Size = new System.Drawing.Size(72, 20);
+            this.txtEquipParry.Size = new System.Drawing.Size(136, 20);
             this.txtEquipParry.TabIndex = 21;
+            this.txtEquipParry.Validated += new System.EventHandler(this.txtEquipParry_Validated);
             // 
             // lblEquipParry
             // 
             this.lblEquipParry.AutoSize = true;
             this.lblEquipParry.Location = new System.Drawing.Point(13, 246);
             this.lblEquipParry.Name = "lblEquipParry";
-            this.lblEquipParry.Size = new System.Drawing.Size(98, 13);
+            this.lblEquipParry.Size = new System.Drawing.Size(34, 13);
             this.lblEquipParry.TabIndex = 20;
-            this.lblEquipParry.Text = "Chance de Desvio:";
+            this.lblEquipParry.Text = "Parry:";
             // 
             // txtEquipDps
             // 
-            this.txtEquipDps.Location = new System.Drawing.Point(119, 217);
+            this.txtEquipDps.Location = new System.Drawing.Point(87, 217);
             this.txtEquipDps.Name = "txtEquipDps";
-            this.txtEquipDps.Size = new System.Drawing.Size(70, 20);
+            this.txtEquipDps.Size = new System.Drawing.Size(153, 20);
             this.txtEquipDps.TabIndex = 19;
+            this.txtEquipDps.Validated += new System.EventHandler(this.txtEquipDps_Validated);
             // 
             // lblEquipDps
             // 
             this.lblEquipDps.AutoSize = true;
             this.lblEquipDps.Location = new System.Drawing.Point(13, 220);
             this.lblEquipDps.Name = "lblEquipDps";
-            this.lblEquipDps.Size = new System.Drawing.Size(100, 13);
+            this.lblEquipDps.Size = new System.Drawing.Size(68, 13);
             this.lblEquipDps.TabIndex = 18;
-            this.lblEquipDps.Text = "Dano por Segundo:";
+            this.lblEquipDps.Text = "Equip D.P.S:";
             // 
             // txtEquipDamageAbsorb
             // 
-            this.txtEquipDamageAbsorb.Location = new System.Drawing.Point(118, 191);
+            this.txtEquipDamageAbsorb.Location = new System.Drawing.Point(105, 191);
             this.txtEquipDamageAbsorb.Name = "txtEquipDamageAbsorb";
-            this.txtEquipDamageAbsorb.Size = new System.Drawing.Size(122, 20);
+            this.txtEquipDamageAbsorb.Size = new System.Drawing.Size(135, 20);
             this.txtEquipDamageAbsorb.TabIndex = 17;
+            this.txtEquipDamageAbsorb.Validated += new System.EventHandler(this.txtEquipDamageAbsorb_Validated);
             // 
             // lblEquipDamageAbsorb
             // 
             this.lblEquipDamageAbsorb.AutoSize = true;
             this.lblEquipDamageAbsorb.Location = new System.Drawing.Point(13, 194);
             this.lblEquipDamageAbsorb.Name = "lblEquipDamageAbsorb";
-            this.lblEquipDamageAbsorb.Size = new System.Drawing.Size(99, 13);
+            this.lblEquipDamageAbsorb.Size = new System.Drawing.Size(86, 13);
             this.lblEquipDamageAbsorb.TabIndex = 16;
-            this.lblEquipDamageAbsorb.Text = "Absorção de Dano:";
+            this.lblEquipDamageAbsorb.Text = "Damage Absorb:";
             // 
             // txtEquipArm_Fo
             // 
-            this.txtEquipArm_Fo.Location = new System.Drawing.Point(118, 165);
+            this.txtEquipArm_Fo.Location = new System.Drawing.Point(96, 165);
             this.txtEquipArm_Fo.Name = "txtEquipArm_Fo";
-            this.txtEquipArm_Fo.Size = new System.Drawing.Size(122, 20);
+            this.txtEquipArm_Fo.Size = new System.Drawing.Size(144, 20);
             this.txtEquipArm_Fo.TabIndex = 15;
+            this.txtEquipArm_Fo.Validated += new System.EventHandler(this.txtEquipArm_Fo_Validated);
             // 
             // lblEquipArm_Fo
             // 
             this.lblEquipArm_Fo.AutoSize = true;
             this.lblEquipArm_Fo.Location = new System.Drawing.Point(13, 168);
             this.lblEquipArm_Fo.Name = "lblEquipArm_Fo";
-            this.lblEquipArm_Fo.Size = new System.Drawing.Size(99, 13);
+            this.lblEquipArm_Fo.Size = new System.Drawing.Size(77, 13);
             this.lblEquipArm_Fo.TabIndex = 14;
-            this.lblEquipArm_Fo.Text = "Defesa ao Buddha:";
+            this.lblEquipArm_Fo.Text = "Buddha Armor:";
             // 
             // txtEquipArm_Light
             // 
-            this.txtEquipArm_Light.Location = new System.Drawing.Point(92, 139);
+            this.txtEquipArm_Light.Location = new System.Drawing.Point(82, 139);
             this.txtEquipArm_Light.Name = "txtEquipArm_Light";
-            this.txtEquipArm_Light.Size = new System.Drawing.Size(148, 20);
+            this.txtEquipArm_Light.Size = new System.Drawing.Size(158, 20);
             this.txtEquipArm_Light.TabIndex = 13;
+            this.txtEquipArm_Light.Validated += new System.EventHandler(this.txtEquipArm_Light_Validated);
             // 
             // lblEquipArm_Light
             // 
             this.lblEquipArm_Light.AutoSize = true;
             this.lblEquipArm_Light.Location = new System.Drawing.Point(13, 142);
             this.lblEquipArm_Light.Name = "lblEquipArm_Light";
-            this.lblEquipArm_Light.Size = new System.Drawing.Size(73, 13);
+            this.lblEquipArm_Light.Size = new System.Drawing.Size(63, 13);
             this.lblEquipArm_Light.TabIndex = 12;
-            this.lblEquipArm_Light.Text = "Defesa a Luz:";
+            this.lblEquipArm_Light.Text = "Light Armor:";
             // 
             // txtEquipArm_Poison
             // 
-            this.txtEquipArm_Poison.Location = new System.Drawing.Point(118, 113);
+            this.txtEquipArm_Poison.Location = new System.Drawing.Point(91, 113);
             this.txtEquipArm_Poison.Name = "txtEquipArm_Poison";
-            this.txtEquipArm_Poison.Size = new System.Drawing.Size(122, 20);
+            this.txtEquipArm_Poison.Size = new System.Drawing.Size(149, 20);
             this.txtEquipArm_Poison.TabIndex = 11;
+            this.txtEquipArm_Poison.Validated += new System.EventHandler(this.txtEquipArm_Poison_Validated);
             // 
             // lblEquipArm_Poison
             // 
             this.lblEquipArm_Poison.AutoSize = true;
             this.lblEquipArm_Poison.Location = new System.Drawing.Point(13, 116);
             this.lblEquipArm_Poison.Name = "lblEquipArm_Poison";
-            this.lblEquipArm_Poison.Size = new System.Drawing.Size(99, 13);
+            this.lblEquipArm_Poison.Size = new System.Drawing.Size(72, 13);
             this.lblEquipArm_Poison.TabIndex = 10;
-            this.lblEquipArm_Poison.Text = "Defesa ao Veneno:";
+            this.lblEquipArm_Poison.Text = "Poison Armor:";
             // 
             // txtEquipArm_Wator
             // 
-            this.txtEquipArm_Wator.Location = new System.Drawing.Point(100, 87);
+            this.txtEquipArm_Wator.Location = new System.Drawing.Point(88, 87);
             this.txtEquipArm_Wator.Name = "txtEquipArm_Wator";
-            this.txtEquipArm_Wator.Size = new System.Drawing.Size(140, 20);
+            this.txtEquipArm_Wator.Size = new System.Drawing.Size(152, 20);
             this.txtEquipArm_Wator.TabIndex = 9;
+            this.txtEquipArm_Wator.Validated += new System.EventHandler(this.txtEquipArm_Wator_Validated);
             // 
             // lblEquipArm_Wator
             // 
             this.lblEquipArm_Wator.AutoSize = true;
             this.lblEquipArm_Wator.Location = new System.Drawing.Point(13, 90);
             this.lblEquipArm_Wator.Name = "lblEquipArm_Wator";
-            this.lblEquipArm_Wator.Size = new System.Drawing.Size(81, 13);
+            this.lblEquipArm_Wator.Size = new System.Drawing.Size(69, 13);
             this.lblEquipArm_Wator.TabIndex = 8;
-            this.lblEquipArm_Wator.Text = "Defesa a Água:";
+            this.lblEquipArm_Wator.Text = "Water Armor:";
             // 
             // txtEquipArm_Fire
             // 
-            this.txtEquipArm_Fire.Location = new System.Drawing.Point(105, 61);
+            this.txtEquipArm_Fire.Location = new System.Drawing.Point(76, 61);
             this.txtEquipArm_Fire.Name = "txtEquipArm_Fire";
-            this.txtEquipArm_Fire.Size = new System.Drawing.Size(135, 20);
+            this.txtEquipArm_Fire.Size = new System.Drawing.Size(164, 20);
             this.txtEquipArm_Fire.TabIndex = 7;
+            this.txtEquipArm_Fire.Validated += new System.EventHandler(this.txtEquipArm_Fire_Validated);
             // 
             // lblEquipArm_Fire
             // 
             this.lblEquipArm_Fire.AutoSize = true;
             this.lblEquipArm_Fire.Location = new System.Drawing.Point(13, 64);
             this.lblEquipArm_Fire.Name = "lblEquipArm_Fire";
-            this.lblEquipArm_Fire.Size = new System.Drawing.Size(86, 13);
+            this.lblEquipArm_Fire.Size = new System.Drawing.Size(57, 13);
             this.lblEquipArm_Fire.TabIndex = 6;
-            this.lblEquipArm_Fire.Text = "Defesa ao Fogo:";
+            this.lblEquipArm_Fire.Text = "Fire Armor:";
             // 
             // txtEquipPhyArmor
             // 
-            this.txtEquipPhyArmor.Location = new System.Drawing.Point(63, 35);
+            this.txtEquipPhyArmor.Location = new System.Drawing.Point(77, 35);
             this.txtEquipPhyArmor.Name = "txtEquipPhyArmor";
-            this.txtEquipPhyArmor.Size = new System.Drawing.Size(177, 20);
+            this.txtEquipPhyArmor.Size = new System.Drawing.Size(163, 20);
             this.txtEquipPhyArmor.TabIndex = 5;
+            this.txtEquipPhyArmor.Validated += new System.EventHandler(this.txtEquipPhyArmor_Validated);
             // 
             // lblEquipPhyArmor
             // 
             this.lblEquipPhyArmor.AutoSize = true;
             this.lblEquipPhyArmor.Location = new System.Drawing.Point(13, 38);
             this.lblEquipPhyArmor.Name = "lblEquipPhyArmor";
-            this.lblEquipPhyArmor.Size = new System.Drawing.Size(44, 13);
+            this.lblEquipPhyArmor.Size = new System.Drawing.Size(58, 13);
             this.lblEquipPhyArmor.TabIndex = 4;
-            this.lblEquipPhyArmor.Text = "Defesa:";
+            this.lblEquipPhyArmor.Text = "Phy Armor:";
             // 
             // txtBindBuff
             // 
-            this.txtBindBuff.Location = new System.Drawing.Point(48, 9);
+            this.txtBindBuff.Location = new System.Drawing.Point(72, 9);
             this.txtBindBuff.Name = "txtBindBuff";
-            this.txtBindBuff.Size = new System.Drawing.Size(192, 20);
+            this.txtBindBuff.Size = new System.Drawing.Size(168, 20);
             this.txtBindBuff.TabIndex = 3;
+            this.txtBindBuff.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtBindBuff.Validated += new System.EventHandler(this.txtBindBuff_Validated);
             // 
             // lblBindBuff
             // 
             this.lblBindBuff.AutoSize = true;
             this.lblBindBuff.Location = new System.Drawing.Point(13, 12);
             this.lblBindBuff.Name = "lblBindBuff";
-            this.lblBindBuff.Size = new System.Drawing.Size(29, 13);
+            this.lblBindBuff.Size = new System.Drawing.Size(53, 13);
             this.lblBindBuff.TabIndex = 2;
-            this.lblBindBuff.Text = "Buff:";
+            this.lblBindBuff.Text = "Bind Buff:";
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.chkPrePoseDrawWeap);
             this.tabPage3.Controls.Add(this.chkCache);
             this.tabPage3.Controls.Add(this.chkNotCheckAttState);
-            this.tabPage3.Controls.Add(this.textBox33);
-            this.tabPage3.Controls.Add(this.label33);
-            this.tabPage3.Controls.Add(this.textBox34);
-            this.tabPage3.Controls.Add(this.label34);
-            this.tabPage3.Controls.Add(this.textBox35);
-            this.tabPage3.Controls.Add(this.label35);
-            this.tabPage3.Controls.Add(this.textBox32);
-            this.tabPage3.Controls.Add(this.label32);
-            this.tabPage3.Controls.Add(this.textBox29);
-            this.tabPage3.Controls.Add(this.label29);
-            this.tabPage3.Controls.Add(this.textBox30);
-            this.tabPage3.Controls.Add(this.label30);
-            this.tabPage3.Controls.Add(this.textBox31);
-            this.tabPage3.Controls.Add(this.label31);
-            this.tabPage3.Controls.Add(this.textBox26);
-            this.tabPage3.Controls.Add(this.label26);
-            this.tabPage3.Controls.Add(this.textBox27);
-            this.tabPage3.Controls.Add(this.label27);
-            this.tabPage3.Controls.Add(this.textBox28);
-            this.tabPage3.Controls.Add(this.label28);
-            this.tabPage3.Controls.Add(this.textBox22);
-            this.tabPage3.Controls.Add(this.label22);
-            this.tabPage3.Controls.Add(this.textBox23);
-            this.tabPage3.Controls.Add(this.label23);
-            this.tabPage3.Controls.Add(this.label24);
-            this.tabPage3.Controls.Add(this.textBox24);
-            this.tabPage3.Controls.Add(this.textBox25);
-            this.tabPage3.Controls.Add(this.label25);
-            this.tabPage3.Controls.Add(this.textBox21);
-            this.tabPage3.Controls.Add(this.label21);
+            this.tabPage3.Controls.Add(this.txtGraph_HitEffLink);
+            this.tabPage3.Controls.Add(this.lblGraph_HitEffLink);
+            this.tabPage3.Controls.Add(this.txtGraph_HitEff);
+            this.tabPage3.Controls.Add(this.lblGraph_HitEff);
+            this.tabPage3.Controls.Add(this.txtGraph_SceneEff);
+            this.tabPage3.Controls.Add(this.lblGraph_SceneEff);
+            this.tabPage3.Controls.Add(this.txtSound);
+            this.tabPage3.Controls.Add(this.lblSound);
+            this.tabPage3.Controls.Add(this.txtWeapon1DrawInLink2);
+            this.tabPage3.Controls.Add(this.lblWeapon1DrawInLink2);
+            this.tabPage3.Controls.Add(this.txtWeaponLink2);
+            this.tabPage3.Controls.Add(this.lblWeaponLink2);
+            this.tabPage3.Controls.Add(this.txtWeapon1DrawInLink);
+            this.tabPage3.Controls.Add(this.lblWeapon1DrawInLink);
+            this.tabPage3.Controls.Add(this.txtItemRideEffectLink);
+            this.tabPage3.Controls.Add(this.lblItemRideEffectLink);
+            this.tabPage3.Controls.Add(this.txtItemRideEffect);
+            this.tabPage3.Controls.Add(this.lblItemRideEffect);
+            this.tabPage3.Controls.Add(this.txtWeaponLink);
+            this.tabPage3.Controls.Add(this.lblWeaponLink);
+            this.tabPage3.Controls.Add(this.txtModel4_2);
+            this.tabPage3.Controls.Add(this.lblModel4_2);
+            this.tabPage3.Controls.Add(this.txtModel3_2);
+            this.tabPage3.Controls.Add(this.lblModel_2);
+            this.tabPage3.Controls.Add(this.lblModel3_2);
+            this.tabPage3.Controls.Add(this.txtModel_2);
+            this.tabPage3.Controls.Add(this.txtModel2_2);
+            this.tabPage3.Controls.Add(this.lblModel2_2);
+            this.tabPage3.Controls.Add(this.txtScale);
+            this.tabPage3.Controls.Add(this.lblScale);
             this.tabPage3.Controls.Add(this.lblGraphParam);
             this.tabPage3.Controls.Add(this.txtGraphParam);
             this.tabPage3.Controls.Add(this.picIcon);
@@ -2177,46 +2257,46 @@
             this.tabPage3.Controls.Add(this.txtModel);
             this.tabPage3.Controls.Add(this.txtMode2);
             this.tabPage3.Controls.Add(this.lblModel2);
-            this.tabPage3.Controls.Add(this.textBox18);
-            this.tabPage3.Controls.Add(this.label18);
-            this.tabPage3.Controls.Add(this.textBox19);
-            this.tabPage3.Controls.Add(this.label19);
-            this.tabPage3.Controls.Add(this.textBox20);
-            this.tabPage3.Controls.Add(this.label20);
-            this.tabPage3.Controls.Add(this.textBox17);
+            this.tabPage3.Controls.Add(this.txtDmgMinMax);
+            this.tabPage3.Controls.Add(this.lblDmgMinMax);
+            this.tabPage3.Controls.Add(this.txtRealDmgTime);
+            this.tabPage3.Controls.Add(this.lblRealDmgTime);
+            this.tabPage3.Controls.Add(this.txtNoDamage);
+            this.tabPage3.Controls.Add(this.lblNoDamage);
+            this.tabPage3.Controls.Add(this.txtLaunchTarget);
             this.tabPage3.Controls.Add(this.label17);
-            this.tabPage3.Controls.Add(this.textBox16);
+            this.tabPage3.Controls.Add(this.txtLaunchSelf);
             this.tabPage3.Controls.Add(this.label16);
-            this.tabPage3.Controls.Add(this.textBox15);
+            this.tabPage3.Controls.Add(this.txtLaunchTmpTarget);
             this.tabPage3.Controls.Add(this.label15);
-            this.tabPage3.Controls.Add(this.textBox14);
+            this.tabPage3.Controls.Add(this.txtLaunchTmpSelf);
             this.tabPage3.Controls.Add(this.label14);
-            this.tabPage3.Controls.Add(this.textBox13);
-            this.tabPage3.Controls.Add(this.label13);
-            this.tabPage3.Controls.Add(this.textBox12);
-            this.tabPage3.Controls.Add(this.label12);
-            this.tabPage3.Controls.Add(this.textBox11);
-            this.tabPage3.Controls.Add(this.label11);
-            this.tabPage3.Controls.Add(this.textBox9);
-            this.tabPage3.Controls.Add(this.label9);
-            this.tabPage3.Controls.Add(this.textBox10);
-            this.tabPage3.Controls.Add(this.label10);
-            this.tabPage3.Controls.Add(this.textBox7);
-            this.tabPage3.Controls.Add(this.label7);
-            this.tabPage3.Controls.Add(this.textBox8);
-            this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Controls.Add(this.textBox6);
-            this.tabPage3.Controls.Add(this.label6);
-            this.tabPage3.Controls.Add(this.textBox5);
-            this.tabPage3.Controls.Add(this.label5);
-            this.tabPage3.Controls.Add(this.textBox4);
-            this.tabPage3.Controls.Add(this.label4);
-            this.tabPage3.Controls.Add(this.textBox3);
-            this.tabPage3.Controls.Add(this.label3);
-            this.tabPage3.Controls.Add(this.textBox2);
-            this.tabPage3.Controls.Add(this.label2);
-            this.tabPage3.Controls.Add(this.textBox1);
-            this.tabPage3.Controls.Add(this.label1);
+            this.tabPage3.Controls.Add(this.txtDmgType);
+            this.tabPage3.Controls.Add(this.lblDmgType);
+            this.tabPage3.Controls.Add(this.txtAdditionShowParam);
+            this.tabPage3.Controls.Add(this.lblAddtionShowParam);
+            this.tabPage3.Controls.Add(this.txtEffRate);
+            this.tabPage3.Controls.Add(this.lblEffRate);
+            this.tabPage3.Controls.Add(this.txtCriticalRate);
+            this.tabPage3.Controls.Add(this.lblCriticalRate);
+            this.tabPage3.Controls.Add(this.txtPoseTime);
+            this.tabPage3.Controls.Add(this.lblPoseTime);
+            this.tabPage3.Controls.Add(this.txtForbiddenTime);
+            this.tabPage3.Controls.Add(this.lblForbiddenTime);
+            this.tabPage3.Controls.Add(this.txtTypeCDId);
+            this.tabPage3.Controls.Add(this.lblTypeCDId);
+            this.tabPage3.Controls.Add(this.txtPublicCDTime);
+            this.tabPage3.Controls.Add(this.lblPublicCDTime);
+            this.tabPage3.Controls.Add(this.txtCDTime);
+            this.tabPage3.Controls.Add(this.lblCDTime);
+            this.tabPage3.Controls.Add(this.txtLoadingTarget);
+            this.tabPage3.Controls.Add(this.lblLoadingTarget);
+            this.tabPage3.Controls.Add(this.txtLoadingSelf);
+            this.tabPage3.Controls.Add(this.lblLoadingSelf);
+            this.tabPage3.Controls.Add(this.txtLoadingTmpTarget);
+            this.tabPage3.Controls.Add(this.lblLoadingTmpTarget);
+            this.tabPage3.Controls.Add(this.txtLoadingTmpSelf);
+            this.tabPage3.Controls.Add(this.lblLoadingTmpSelf);
             this.tabPage3.Controls.Add(this.chkPath);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(6);
@@ -2259,275 +2339,290 @@
             this.chkNotCheckAttState.UseVisualStyleBackColor = true;
             this.chkNotCheckAttState.CheckedChanged += new System.EventHandler(this.chkNotCheckAttState_CheckedChanged);
             // 
-            // textBox33
+            // txtGraph_HitEffLink
             // 
-            this.textBox33.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtGraph_HitEffLink.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox33.Location = new System.Drawing.Point(441, 380);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(123, 20);
-            this.textBox33.TabIndex = 153;
+            this.txtGraph_HitEffLink.Location = new System.Drawing.Point(441, 380);
+            this.txtGraph_HitEffLink.Name = "txtGraph_HitEffLink";
+            this.txtGraph_HitEffLink.Size = new System.Drawing.Size(123, 20);
+            this.txtGraph_HitEffLink.TabIndex = 153;
+            this.txtGraph_HitEffLink.Validated += new System.EventHandler(this.txtGraph_HitEffLink_Validated);
             // 
-            // label33
+            // lblGraph_HitEffLink
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(441, 366);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(117, 13);
-            this.label33.TabIndex = 152;
-            this.label33.Text = "Graphic Hit Effect Link:";
+            this.lblGraph_HitEffLink.AutoSize = true;
+            this.lblGraph_HitEffLink.Location = new System.Drawing.Point(441, 366);
+            this.lblGraph_HitEffLink.Name = "lblGraph_HitEffLink";
+            this.lblGraph_HitEffLink.Size = new System.Drawing.Size(117, 13);
+            this.lblGraph_HitEffLink.TabIndex = 152;
+            this.lblGraph_HitEffLink.Text = "Graphic Hit Effect Link:";
             // 
-            // textBox34
+            // txtGraph_HitEff
             // 
-            this.textBox34.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtGraph_HitEff.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox34.Location = new System.Drawing.Point(441, 343);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(123, 20);
-            this.textBox34.TabIndex = 151;
+            this.txtGraph_HitEff.Location = new System.Drawing.Point(441, 343);
+            this.txtGraph_HitEff.Name = "txtGraph_HitEff";
+            this.txtGraph_HitEff.Size = new System.Drawing.Size(123, 20);
+            this.txtGraph_HitEff.TabIndex = 151;
+            this.txtGraph_HitEff.Validated += new System.EventHandler(this.txtGraph_HitEff_Validated);
             // 
-            // label34
+            // lblGraph_HitEff
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(441, 329);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(94, 13);
-            this.label34.TabIndex = 150;
-            this.label34.Text = "Graphic Hit Effect:";
+            this.lblGraph_HitEff.AutoSize = true;
+            this.lblGraph_HitEff.Location = new System.Drawing.Point(441, 329);
+            this.lblGraph_HitEff.Name = "lblGraph_HitEff";
+            this.lblGraph_HitEff.Size = new System.Drawing.Size(94, 13);
+            this.lblGraph_HitEff.TabIndex = 150;
+            this.lblGraph_HitEff.Text = "Graphic Hit Effect:";
             // 
-            // textBox35
+            // txtGraph_SceneEff
             // 
-            this.textBox35.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtGraph_SceneEff.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox35.Location = new System.Drawing.Point(441, 306);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(123, 20);
-            this.textBox35.TabIndex = 149;
+            this.txtGraph_SceneEff.Location = new System.Drawing.Point(441, 306);
+            this.txtGraph_SceneEff.Name = "txtGraph_SceneEff";
+            this.txtGraph_SceneEff.Size = new System.Drawing.Size(123, 20);
+            this.txtGraph_SceneEff.TabIndex = 149;
+            this.txtGraph_SceneEff.Validated += new System.EventHandler(this.txtGraph_SceneEff_Validated);
             // 
-            // label35
+            // lblGraph_SceneEff
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(441, 292);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(112, 13);
-            this.label35.TabIndex = 148;
-            this.label35.Text = "Graphic Scene Effect:";
+            this.lblGraph_SceneEff.AutoSize = true;
+            this.lblGraph_SceneEff.Location = new System.Drawing.Point(441, 292);
+            this.lblGraph_SceneEff.Name = "lblGraph_SceneEff";
+            this.lblGraph_SceneEff.Size = new System.Drawing.Size(112, 13);
+            this.lblGraph_SceneEff.TabIndex = 148;
+            this.lblGraph_SceneEff.Text = "Graphic Scene Effect:";
             // 
-            // textBox32
+            // txtSound
             // 
-            this.textBox32.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtSound.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox32.Location = new System.Drawing.Point(379, 269);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(185, 20);
-            this.textBox32.TabIndex = 147;
+            this.txtSound.Location = new System.Drawing.Point(379, 269);
+            this.txtSound.Name = "txtSound";
+            this.txtSound.Size = new System.Drawing.Size(185, 20);
+            this.txtSound.TabIndex = 147;
+            this.txtSound.Validated += new System.EventHandler(this.txtSound_Validated);
             // 
-            // label32
+            // lblSound
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(334, 272);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(41, 13);
-            this.label32.TabIndex = 146;
-            this.label32.Text = "Sound:";
+            this.lblSound.AutoSize = true;
+            this.lblSound.Location = new System.Drawing.Point(334, 272);
+            this.lblSound.Name = "lblSound";
+            this.lblSound.Size = new System.Drawing.Size(41, 13);
+            this.lblSound.TabIndex = 146;
+            this.lblSound.Text = "Sound:";
             // 
-            // textBox29
+            // txtWeapon1DrawInLink2
             // 
-            this.textBox29.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtWeapon1DrawInLink2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox29.Location = new System.Drawing.Point(345, 352);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(90, 20);
-            this.textBox29.TabIndex = 145;
+            this.txtWeapon1DrawInLink2.Location = new System.Drawing.Point(347, 352);
+            this.txtWeapon1DrawInLink2.Name = "txtWeapon1DrawInLink2";
+            this.txtWeapon1DrawInLink2.Size = new System.Drawing.Size(88, 20);
+            this.txtWeapon1DrawInLink2.TabIndex = 145;
+            this.txtWeapon1DrawInLink2.Validated += new System.EventHandler(this.txtWeapon1DrawInLink2_Validated);
             // 
-            // label29
+            // lblWeapon1DrawInLink2
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(230, 355);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(109, 13);
-            this.label29.TabIndex = 144;
-            this.label29.Text = "Item Ride Effect Link:";
+            this.lblWeapon1DrawInLink2.AutoSize = true;
+            this.lblWeapon1DrawInLink2.Location = new System.Drawing.Point(230, 355);
+            this.lblWeapon1DrawInLink2.Name = "lblWeapon1DrawInLink2";
+            this.lblWeapon1DrawInLink2.Size = new System.Drawing.Size(111, 13);
+            this.lblWeapon1DrawInLink2.TabIndex = 144;
+            this.lblWeapon1DrawInLink2.Text = "Weap Draw In Link 2:";
             // 
-            // textBox30
+            // txtWeaponLink2
             // 
-            this.textBox30.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtWeaponLink2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox30.Location = new System.Drawing.Point(322, 326);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(113, 20);
-            this.textBox30.TabIndex = 143;
+            this.txtWeaponLink2.Location = new System.Drawing.Point(319, 326);
+            this.txtWeaponLink2.Name = "txtWeaponLink2";
+            this.txtWeaponLink2.Size = new System.Drawing.Size(116, 20);
+            this.txtWeaponLink2.TabIndex = 143;
+            this.txtWeaponLink2.Validated += new System.EventHandler(this.txtWeaponLink2_Validated);
             // 
-            // label30
+            // lblWeaponLink2
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(230, 329);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(86, 13);
-            this.label30.TabIndex = 142;
-            this.label30.Text = "Item Ride Effect:";
+            this.lblWeaponLink2.AutoSize = true;
+            this.lblWeaponLink2.Location = new System.Drawing.Point(230, 329);
+            this.lblWeaponLink2.Name = "lblWeaponLink2";
+            this.lblWeaponLink2.Size = new System.Drawing.Size(83, 13);
+            this.lblWeaponLink2.TabIndex = 142;
+            this.lblWeaponLink2.Text = "Weapon Link 2:";
             // 
-            // textBox31
+            // txtWeapon1DrawInLink
             // 
-            this.textBox31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtWeapon1DrawInLink.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox31.Location = new System.Drawing.Point(310, 300);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(125, 20);
-            this.textBox31.TabIndex = 141;
+            this.txtWeapon1DrawInLink.Location = new System.Drawing.Point(338, 300);
+            this.txtWeapon1DrawInLink.Name = "txtWeapon1DrawInLink";
+            this.txtWeapon1DrawInLink.Size = new System.Drawing.Size(97, 20);
+            this.txtWeapon1DrawInLink.TabIndex = 141;
+            this.txtWeapon1DrawInLink.Validated += new System.EventHandler(this.txtWeapon1DrawInLink_Validated);
             // 
-            // label31
+            // lblWeapon1DrawInLink
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(230, 303);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(74, 13);
-            this.label31.TabIndex = 140;
-            this.label31.Text = "Weapon Link:";
+            this.lblWeapon1DrawInLink.AutoSize = true;
+            this.lblWeapon1DrawInLink.Location = new System.Drawing.Point(230, 303);
+            this.lblWeapon1DrawInLink.Name = "lblWeapon1DrawInLink";
+            this.lblWeapon1DrawInLink.Size = new System.Drawing.Size(102, 13);
+            this.lblWeapon1DrawInLink.TabIndex = 140;
+            this.lblWeapon1DrawInLink.Text = "Weap Draw In Link:";
             // 
-            // textBox26
+            // txtItemRideEffectLink
             // 
-            this.textBox26.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtItemRideEffectLink.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox26.Location = new System.Drawing.Point(126, 352);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(98, 20);
-            this.textBox26.TabIndex = 138;
+            this.txtItemRideEffectLink.Location = new System.Drawing.Point(126, 352);
+            this.txtItemRideEffectLink.Name = "txtItemRideEffectLink";
+            this.txtItemRideEffectLink.Size = new System.Drawing.Size(98, 20);
+            this.txtItemRideEffectLink.TabIndex = 138;
+            this.txtItemRideEffectLink.Validated += new System.EventHandler(this.txtItemRideEffectLink_Validated);
             // 
-            // label26
+            // lblItemRideEffectLink
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(11, 355);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(109, 13);
-            this.label26.TabIndex = 137;
-            this.label26.Text = "Item Ride Effect Link:";
+            this.lblItemRideEffectLink.AutoSize = true;
+            this.lblItemRideEffectLink.Location = new System.Drawing.Point(11, 355);
+            this.lblItemRideEffectLink.Name = "lblItemRideEffectLink";
+            this.lblItemRideEffectLink.Size = new System.Drawing.Size(109, 13);
+            this.lblItemRideEffectLink.TabIndex = 137;
+            this.lblItemRideEffectLink.Text = "Item Ride Effect Link:";
             // 
-            // textBox27
+            // txtItemRideEffect
             // 
-            this.textBox27.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtItemRideEffect.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox27.Location = new System.Drawing.Point(103, 326);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(121, 20);
-            this.textBox27.TabIndex = 136;
+            this.txtItemRideEffect.Location = new System.Drawing.Point(103, 326);
+            this.txtItemRideEffect.Name = "txtItemRideEffect";
+            this.txtItemRideEffect.Size = new System.Drawing.Size(121, 20);
+            this.txtItemRideEffect.TabIndex = 136;
+            this.txtItemRideEffect.Validated += new System.EventHandler(this.txtItemRideEffect_Validated);
             // 
-            // label27
+            // lblItemRideEffect
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(11, 329);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(86, 13);
-            this.label27.TabIndex = 135;
-            this.label27.Text = "Item Ride Effect:";
+            this.lblItemRideEffect.AutoSize = true;
+            this.lblItemRideEffect.Location = new System.Drawing.Point(11, 329);
+            this.lblItemRideEffect.Name = "lblItemRideEffect";
+            this.lblItemRideEffect.Size = new System.Drawing.Size(86, 13);
+            this.lblItemRideEffect.TabIndex = 135;
+            this.lblItemRideEffect.Text = "Item Ride Effect:";
             // 
-            // textBox28
+            // txtWeaponLink
             // 
-            this.textBox28.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtWeaponLink.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox28.Location = new System.Drawing.Point(91, 300);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(133, 20);
-            this.textBox28.TabIndex = 134;
+            this.txtWeaponLink.Location = new System.Drawing.Point(91, 300);
+            this.txtWeaponLink.Name = "txtWeaponLink";
+            this.txtWeaponLink.Size = new System.Drawing.Size(133, 20);
+            this.txtWeaponLink.TabIndex = 134;
+            this.txtWeaponLink.Validated += new System.EventHandler(this.txtWeaponLink_Validated);
             // 
-            // label28
+            // lblWeaponLink
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(11, 303);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(74, 13);
-            this.label28.TabIndex = 133;
-            this.label28.Text = "Weapon Link:";
+            this.lblWeaponLink.AutoSize = true;
+            this.lblWeaponLink.Location = new System.Drawing.Point(11, 303);
+            this.lblWeaponLink.Name = "lblWeaponLink";
+            this.lblWeaponLink.Size = new System.Drawing.Size(74, 13);
+            this.lblWeaponLink.TabIndex = 133;
+            this.lblWeaponLink.Text = "Weapon Link:";
             // 
-            // textBox22
+            // txtModel4_2
             // 
-            this.textBox22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtModel4_2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox22.Location = new System.Drawing.Point(415, 244);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(149, 20);
-            this.textBox22.TabIndex = 132;
+            this.txtModel4_2.Location = new System.Drawing.Point(415, 244);
+            this.txtModel4_2.Name = "txtModel4_2";
+            this.txtModel4_2.Size = new System.Drawing.Size(149, 20);
+            this.txtModel4_2.TabIndex = 132;
+            this.txtModel4_2.Validated += new System.EventHandler(this.txtModel4_2_Validated);
             // 
-            // label22
+            // lblModel4_2
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(334, 247);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(75, 13);
-            this.label22.TabIndex = 131;
-            this.label22.Text = "Model 2 (+10):";
+            this.lblModel4_2.AutoSize = true;
+            this.lblModel4_2.Location = new System.Drawing.Point(334, 247);
+            this.lblModel4_2.Name = "lblModel4_2";
+            this.lblModel4_2.Size = new System.Drawing.Size(75, 13);
+            this.lblModel4_2.TabIndex = 131;
+            this.lblModel4_2.Text = "Model 2 (+10):";
             // 
-            // textBox23
+            // txtModel3_2
             // 
-            this.textBox23.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtModel3_2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox23.Location = new System.Drawing.Point(415, 219);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(149, 20);
-            this.textBox23.TabIndex = 130;
+            this.txtModel3_2.Location = new System.Drawing.Point(415, 219);
+            this.txtModel3_2.Name = "txtModel3_2";
+            this.txtModel3_2.Size = new System.Drawing.Size(149, 20);
+            this.txtModel3_2.TabIndex = 130;
+            this.txtModel3_2.Validated += new System.EventHandler(this.txtModel3_2_Validated);
             // 
-            // label23
+            // lblModel_2
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(334, 172);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(48, 13);
-            this.label23.TabIndex = 125;
-            this.label23.Text = "Model 2:";
+            this.lblModel_2.AutoSize = true;
+            this.lblModel_2.Location = new System.Drawing.Point(334, 172);
+            this.lblModel_2.Name = "lblModel_2";
+            this.lblModel_2.Size = new System.Drawing.Size(48, 13);
+            this.lblModel_2.TabIndex = 125;
+            this.lblModel_2.Text = "Model 2:";
             // 
-            // label24
+            // lblModel3_2
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(334, 222);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(75, 13);
-            this.label24.TabIndex = 129;
-            this.label24.Text = "Model 2 (+7+):";
+            this.lblModel3_2.AutoSize = true;
+            this.lblModel3_2.Location = new System.Drawing.Point(334, 222);
+            this.lblModel3_2.Name = "lblModel3_2";
+            this.lblModel3_2.Size = new System.Drawing.Size(75, 13);
+            this.lblModel3_2.TabIndex = 129;
+            this.lblModel3_2.Text = "Model 2 (+7+):";
             // 
-            // textBox24
+            // txtModel_2
             // 
-            this.textBox24.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtModel_2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox24.Location = new System.Drawing.Point(388, 169);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(176, 20);
-            this.textBox24.TabIndex = 126;
+            this.txtModel_2.Location = new System.Drawing.Point(388, 169);
+            this.txtModel_2.Name = "txtModel_2";
+            this.txtModel_2.Size = new System.Drawing.Size(176, 20);
+            this.txtModel_2.TabIndex = 126;
+            this.txtModel_2.Validated += new System.EventHandler(this.txtModel_2_Validated);
             // 
-            // textBox25
+            // txtModel2_2
             // 
-            this.textBox25.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtModel2_2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox25.Location = new System.Drawing.Point(415, 194);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(149, 20);
-            this.textBox25.TabIndex = 128;
+            this.txtModel2_2.Location = new System.Drawing.Point(415, 194);
+            this.txtModel2_2.Name = "txtModel2_2";
+            this.txtModel2_2.Size = new System.Drawing.Size(149, 20);
+            this.txtModel2_2.TabIndex = 128;
+            this.txtModel2_2.Validated += new System.EventHandler(this.txtModel2_2_Validated);
             // 
-            // label25
+            // lblModel2_2
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(334, 197);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(75, 13);
-            this.label25.TabIndex = 127;
-            this.label25.Text = "Model 2 (+4+):";
+            this.lblModel2_2.AutoSize = true;
+            this.lblModel2_2.Location = new System.Drawing.Point(334, 197);
+            this.lblModel2_2.Name = "lblModel2_2";
+            this.lblModel2_2.Size = new System.Drawing.Size(75, 13);
+            this.lblModel2_2.TabIndex = 127;
+            this.lblModel2_2.Text = "Model 2 (+4+):";
             // 
-            // textBox21
+            // txtScale
             // 
-            this.textBox21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtScale.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox21.Location = new System.Drawing.Point(506, 44);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(58, 20);
-            this.textBox21.TabIndex = 124;
+            this.txtScale.Location = new System.Drawing.Point(506, 44);
+            this.txtScale.Name = "txtScale";
+            this.txtScale.Size = new System.Drawing.Size(58, 20);
+            this.txtScale.TabIndex = 124;
+            this.txtScale.Validated += new System.EventHandler(this.txtScale_Validated);
             // 
-            // label21
+            // lblScale
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(463, 47);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(37, 13);
-            this.label21.TabIndex = 123;
-            this.label21.Text = "Scale:";
+            this.lblScale.AutoSize = true;
+            this.lblScale.Location = new System.Drawing.Point(463, 47);
+            this.lblScale.Name = "lblScale";
+            this.lblScale.Size = new System.Drawing.Size(37, 13);
+            this.lblScale.TabIndex = 123;
+            this.lblScale.Text = "Scale:";
             // 
             // lblGraphParam
             // 
@@ -2546,6 +2641,7 @@
             this.txtGraphParam.Name = "txtGraphParam";
             this.txtGraphParam.Size = new System.Drawing.Size(37, 20);
             this.txtGraphParam.TabIndex = 122;
+            this.txtGraphParam.Validated += new System.EventHandler(this.txtGraphParam_Validated);
             // 
             // picIcon
             // 
@@ -2564,6 +2660,7 @@
             this.txtModel4.Name = "txtModel4";
             this.txtModel4.Size = new System.Drawing.Size(158, 20);
             this.txtModel4.TabIndex = 119;
+            this.txtModel4.Validated += new System.EventHandler(this.txtModel4_Validated);
             // 
             // lblIcon
             // 
@@ -2602,6 +2699,7 @@
             this.txtModel3.Name = "txtModel3";
             this.txtModel3.Size = new System.Drawing.Size(158, 20);
             this.txtModel3.TabIndex = 117;
+            this.txtModel3.Validated += new System.EventHandler(this.txtModel3_Validated);
             // 
             // lblModel
             // 
@@ -2629,6 +2727,7 @@
             this.txtModel.Name = "txtModel";
             this.txtModel.Size = new System.Drawing.Size(185, 20);
             this.txtModel.TabIndex = 113;
+            this.txtModel.Validated += new System.EventHandler(this.txtModel_Validated);
             // 
             // txtMode2
             // 
@@ -2638,6 +2737,7 @@
             this.txtMode2.Name = "txtMode2";
             this.txtMode2.Size = new System.Drawing.Size(158, 20);
             this.txtMode2.TabIndex = 115;
+            this.txtMode2.Validated += new System.EventHandler(this.txtMode2_Validated);
             // 
             // lblModel2
             // 
@@ -2648,68 +2748,72 @@
             this.lblModel2.TabIndex = 114;
             this.lblModel2.Text = "Model (+4+):";
             // 
-            // textBox18
+            // txtDmgMinMax
             // 
-            this.textBox18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtDmgMinMax.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox18.Location = new System.Drawing.Point(112, 274);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(217, 20);
-            this.textBox18.TabIndex = 109;
+            this.txtDmgMinMax.Location = new System.Drawing.Point(112, 274);
+            this.txtDmgMinMax.Name = "txtDmgMinMax";
+            this.txtDmgMinMax.Size = new System.Drawing.Size(217, 20);
+            this.txtDmgMinMax.TabIndex = 109;
+            this.txtDmgMinMax.Validated += new System.EventHandler(this.txtDmgMinMax_Validated);
             // 
-            // label18
+            // lblDmgMinMax
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(11, 277);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(95, 13);
-            this.label18.TabIndex = 108;
-            this.label18.Text = "Damage Min/Max:";
+            this.lblDmgMinMax.AutoSize = true;
+            this.lblDmgMinMax.Location = new System.Drawing.Point(11, 277);
+            this.lblDmgMinMax.Name = "lblDmgMinMax";
+            this.lblDmgMinMax.Size = new System.Drawing.Size(95, 13);
+            this.lblDmgMinMax.TabIndex = 108;
+            this.lblDmgMinMax.Text = "Damage Min/Max:";
             // 
-            // textBox19
+            // txtRealDmgTime
             // 
-            this.textBox19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtRealDmgTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox19.Location = new System.Drawing.Point(285, 249);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(44, 20);
-            this.textBox19.TabIndex = 107;
+            this.txtRealDmgTime.Location = new System.Drawing.Point(285, 249);
+            this.txtRealDmgTime.Name = "txtRealDmgTime";
+            this.txtRealDmgTime.Size = new System.Drawing.Size(44, 20);
+            this.txtRealDmgTime.TabIndex = 107;
+            this.txtRealDmgTime.Validated += new System.EventHandler(this.txtRealDmgTime_Validated);
             // 
-            // label19
+            // lblRealDmgTime
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(178, 252);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(101, 13);
-            this.label19.TabIndex = 106;
-            this.label19.Text = "Real Damage Time:";
+            this.lblRealDmgTime.AutoSize = true;
+            this.lblRealDmgTime.Location = new System.Drawing.Point(178, 252);
+            this.lblRealDmgTime.Name = "lblRealDmgTime";
+            this.lblRealDmgTime.Size = new System.Drawing.Size(101, 13);
+            this.lblRealDmgTime.TabIndex = 106;
+            this.lblRealDmgTime.Text = "Real Damage Time:";
             // 
-            // textBox20
+            // txtNoDamage
             // 
-            this.textBox20.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtNoDamage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox20.Location = new System.Drawing.Point(251, 223);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(78, 20);
-            this.textBox20.TabIndex = 105;
+            this.txtNoDamage.Location = new System.Drawing.Point(251, 223);
+            this.txtNoDamage.Name = "txtNoDamage";
+            this.txtNoDamage.Size = new System.Drawing.Size(78, 20);
+            this.txtNoDamage.TabIndex = 105;
+            this.txtNoDamage.Validated += new System.EventHandler(this.txtNoDamage_Validated);
             // 
-            // label20
+            // lblNoDamage
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(178, 226);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(67, 13);
-            this.label20.TabIndex = 104;
-            this.label20.Text = "No Damage:";
+            this.lblNoDamage.AutoSize = true;
+            this.lblNoDamage.Location = new System.Drawing.Point(178, 226);
+            this.lblNoDamage.Name = "lblNoDamage";
+            this.lblNoDamage.Size = new System.Drawing.Size(67, 13);
+            this.lblNoDamage.TabIndex = 104;
+            this.lblNoDamage.Text = "No Damage:";
             // 
-            // textBox17
+            // txtLaunchTarget
             // 
-            this.textBox17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtLaunchTarget.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox17.Location = new System.Drawing.Point(96, 453);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(339, 20);
-            this.textBox17.TabIndex = 103;
+            this.txtLaunchTarget.Location = new System.Drawing.Point(96, 453);
+            this.txtLaunchTarget.Name = "txtLaunchTarget";
+            this.txtLaunchTarget.Size = new System.Drawing.Size(339, 20);
+            this.txtLaunchTarget.TabIndex = 103;
+            this.txtLaunchTarget.Validated += new System.EventHandler(this.txtLaunchTarget_Validated);
             // 
             // label17
             // 
@@ -2720,14 +2824,15 @@
             this.label17.TabIndex = 102;
             this.label17.Text = "Launch Target:";
             // 
-            // textBox16
+            // txtLaunchSelf
             // 
-            this.textBox16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtLaunchSelf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox16.Location = new System.Drawing.Point(83, 428);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(352, 20);
-            this.textBox16.TabIndex = 101;
+            this.txtLaunchSelf.Location = new System.Drawing.Point(83, 428);
+            this.txtLaunchSelf.Name = "txtLaunchSelf";
+            this.txtLaunchSelf.Size = new System.Drawing.Size(352, 20);
+            this.txtLaunchSelf.TabIndex = 101;
+            this.txtLaunchSelf.Validated += new System.EventHandler(this.txtLaunchSelf_Validated);
             // 
             // label16
             // 
@@ -2738,14 +2843,15 @@
             this.label16.TabIndex = 100;
             this.label16.Text = "Launch Self:";
             // 
-            // textBox15
+            // txtLaunchTmpTarget
             // 
-            this.textBox15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtLaunchTmpTarget.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox15.Location = new System.Drawing.Point(126, 403);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(309, 20);
-            this.textBox15.TabIndex = 99;
+            this.txtLaunchTmpTarget.Location = new System.Drawing.Point(126, 403);
+            this.txtLaunchTmpTarget.Name = "txtLaunchTmpTarget";
+            this.txtLaunchTmpTarget.Size = new System.Drawing.Size(309, 20);
+            this.txtLaunchTmpTarget.TabIndex = 99;
+            this.txtLaunchTmpTarget.Validated += new System.EventHandler(this.txtLaunchTmpTarget_Validated);
             // 
             // label15
             // 
@@ -2756,14 +2862,15 @@
             this.label15.TabIndex = 98;
             this.label15.Text = "Launch Target (Tmp):";
             // 
-            // textBox14
+            // txtLaunchTmpSelf
             // 
-            this.textBox14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtLaunchTmpSelf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox14.Location = new System.Drawing.Point(113, 378);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(322, 20);
-            this.textBox14.TabIndex = 97;
+            this.txtLaunchTmpSelf.Location = new System.Drawing.Point(113, 378);
+            this.txtLaunchTmpSelf.Name = "txtLaunchTmpSelf";
+            this.txtLaunchTmpSelf.Size = new System.Drawing.Size(322, 20);
+            this.txtLaunchTmpSelf.TabIndex = 97;
+            this.txtLaunchTmpSelf.Validated += new System.EventHandler(this.txtLaunchTmpSelf_Validated);
             // 
             // label14
             // 
@@ -2774,239 +2881,258 @@
             this.label14.TabIndex = 96;
             this.label14.Text = "Launch Self (Tmp):";
             // 
-            // textBox13
+            // txtDmgType
             // 
-            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtDmgType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox13.Location = new System.Drawing.Point(94, 248);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(78, 20);
-            this.textBox13.TabIndex = 95;
+            this.txtDmgType.Location = new System.Drawing.Point(94, 248);
+            this.txtDmgType.Name = "txtDmgType";
+            this.txtDmgType.Size = new System.Drawing.Size(78, 20);
+            this.txtDmgType.TabIndex = 95;
+            this.txtDmgType.Validated += new System.EventHandler(this.txtDmgType_Validated);
             // 
-            // label13
+            // lblDmgType
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(11, 251);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(77, 13);
-            this.label13.TabIndex = 94;
-            this.label13.Text = "Damage Type:";
+            this.lblDmgType.AutoSize = true;
+            this.lblDmgType.Location = new System.Drawing.Point(11, 251);
+            this.lblDmgType.Name = "lblDmgType";
+            this.lblDmgType.Size = new System.Drawing.Size(77, 13);
+            this.lblDmgType.TabIndex = 94;
+            this.lblDmgType.Text = "Damage Type:";
             // 
-            // textBox12
+            // txtAdditionShowParam
             // 
-            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtAdditionShowParam.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox12.Location = new System.Drawing.Point(126, 197);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(203, 20);
-            this.textBox12.TabIndex = 93;
+            this.txtAdditionShowParam.Location = new System.Drawing.Point(126, 197);
+            this.txtAdditionShowParam.Name = "txtAdditionShowParam";
+            this.txtAdditionShowParam.Size = new System.Drawing.Size(203, 20);
+            this.txtAdditionShowParam.TabIndex = 93;
+            this.txtAdditionShowParam.Validated += new System.EventHandler(this.txtAdditionShowParam_Validated);
             // 
-            // label12
+            // lblAddtionShowParam
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(11, 200);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(109, 13);
-            this.label12.TabIndex = 92;
-            this.label12.Text = "Addtion Show Param:";
+            this.lblAddtionShowParam.AutoSize = true;
+            this.lblAddtionShowParam.Location = new System.Drawing.Point(11, 200);
+            this.lblAddtionShowParam.Name = "lblAddtionShowParam";
+            this.lblAddtionShowParam.Size = new System.Drawing.Size(109, 13);
+            this.lblAddtionShowParam.TabIndex = 92;
+            this.lblAddtionShowParam.Text = "Addtion Show Param:";
             // 
-            // textBox11
+            // txtEffRate
             // 
-            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtEffRate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox11.Location = new System.Drawing.Point(81, 222);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(91, 20);
-            this.textBox11.TabIndex = 91;
+            this.txtEffRate.Location = new System.Drawing.Point(81, 222);
+            this.txtEffRate.Name = "txtEffRate";
+            this.txtEffRate.Size = new System.Drawing.Size(91, 20);
+            this.txtEffRate.TabIndex = 91;
+            this.txtEffRate.Validated += new System.EventHandler(this.txtEffRate_Validated);
             // 
-            // label11
+            // lblEffRate
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(11, 225);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(64, 13);
-            this.label11.TabIndex = 90;
-            this.label11.Text = "Effect Rate:";
+            this.lblEffRate.AutoSize = true;
+            this.lblEffRate.Location = new System.Drawing.Point(11, 225);
+            this.lblEffRate.Name = "lblEffRate";
+            this.lblEffRate.Size = new System.Drawing.Size(64, 13);
+            this.lblEffRate.TabIndex = 90;
+            this.lblEffRate.Text = "Effect Rate:";
             // 
-            // textBox9
+            // txtCriticalRate
             // 
-            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtCriticalRate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox9.Location = new System.Drawing.Point(230, 171);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(99, 20);
-            this.textBox9.TabIndex = 89;
+            this.txtCriticalRate.Location = new System.Drawing.Point(230, 171);
+            this.txtCriticalRate.Name = "txtCriticalRate";
+            this.txtCriticalRate.Size = new System.Drawing.Size(99, 20);
+            this.txtCriticalRate.TabIndex = 89;
+            this.txtCriticalRate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtCriticalRate.Validated += new System.EventHandler(this.txtCriticalRate_Validated);
             // 
-            // label9
+            // lblCriticalRate
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(157, 174);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 13);
-            this.label9.TabIndex = 88;
-            this.label9.Text = "Critical Rate:";
+            this.lblCriticalRate.AutoSize = true;
+            this.lblCriticalRate.Location = new System.Drawing.Point(157, 174);
+            this.lblCriticalRate.Name = "lblCriticalRate";
+            this.lblCriticalRate.Size = new System.Drawing.Size(67, 13);
+            this.lblCriticalRate.TabIndex = 88;
+            this.lblCriticalRate.Text = "Critical Rate:";
             // 
-            // textBox10
+            // txtPoseTime
             // 
-            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtPoseTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox10.Location = new System.Drawing.Point(74, 171);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(77, 20);
-            this.textBox10.TabIndex = 87;
+            this.txtPoseTime.Location = new System.Drawing.Point(74, 171);
+            this.txtPoseTime.Name = "txtPoseTime";
+            this.txtPoseTime.Size = new System.Drawing.Size(77, 20);
+            this.txtPoseTime.TabIndex = 87;
+            this.txtPoseTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtPoseTime.Validated += new System.EventHandler(this.txtPoseTime_Validated);
             // 
-            // label10
+            // lblPoseTime
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(11, 174);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(60, 13);
-            this.label10.TabIndex = 86;
-            this.label10.Text = "Pose Time:";
+            this.lblPoseTime.AutoSize = true;
+            this.lblPoseTime.Location = new System.Drawing.Point(11, 174);
+            this.lblPoseTime.Name = "lblPoseTime";
+            this.lblPoseTime.Size = new System.Drawing.Size(60, 13);
+            this.lblPoseTime.TabIndex = 86;
+            this.lblPoseTime.Text = "Pose Time:";
             // 
-            // textBox7
+            // txtForbiddenTime
             // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtForbiddenTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.Location = new System.Drawing.Point(246, 145);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(83, 20);
-            this.textBox7.TabIndex = 85;
+            this.txtForbiddenTime.Location = new System.Drawing.Point(246, 145);
+            this.txtForbiddenTime.Name = "txtForbiddenTime";
+            this.txtForbiddenTime.Size = new System.Drawing.Size(83, 20);
+            this.txtForbiddenTime.TabIndex = 85;
+            this.txtForbiddenTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtForbiddenTime.Validated += new System.EventHandler(this.txtForbiddenTime_Validated);
             // 
-            // label7
+            // lblForbiddenTime
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(157, 148);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 13);
-            this.label7.TabIndex = 84;
-            this.label7.Text = "Forbidden Time:";
+            this.lblForbiddenTime.AutoSize = true;
+            this.lblForbiddenTime.Location = new System.Drawing.Point(157, 148);
+            this.lblForbiddenTime.Name = "lblForbiddenTime";
+            this.lblForbiddenTime.Size = new System.Drawing.Size(83, 13);
+            this.lblForbiddenTime.TabIndex = 84;
+            this.lblForbiddenTime.Text = "Forbidden Time:";
             // 
-            // textBox8
+            // txtTypeCDId
             // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtTypeCDId.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox8.Location = new System.Drawing.Point(101, 145);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(50, 20);
-            this.textBox8.TabIndex = 83;
+            this.txtTypeCDId.Location = new System.Drawing.Point(101, 145);
+            this.txtTypeCDId.Name = "txtTypeCDId";
+            this.txtTypeCDId.Size = new System.Drawing.Size(50, 20);
+            this.txtTypeCDId.TabIndex = 83;
+            this.txtTypeCDId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtTypeCDId.Validated += new System.EventHandler(this.txtTypeCDId_Validated);
             // 
-            // label8
+            // lblTypeCDId
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(11, 148);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(84, 13);
-            this.label8.TabIndex = 82;
-            this.label8.Text = "Cooldown Type:";
+            this.lblTypeCDId.AutoSize = true;
+            this.lblTypeCDId.Location = new System.Drawing.Point(11, 148);
+            this.lblTypeCDId.Name = "lblTypeCDId";
+            this.lblTypeCDId.Size = new System.Drawing.Size(84, 13);
+            this.lblTypeCDId.TabIndex = 82;
+            this.lblTypeCDId.Text = "Cooldown Type:";
             // 
-            // textBox6
+            // txtPublicCDTime
             // 
-            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtPublicCDTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox6.Location = new System.Drawing.Point(252, 119);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(77, 20);
-            this.textBox6.TabIndex = 81;
+            this.txtPublicCDTime.Location = new System.Drawing.Point(252, 119);
+            this.txtPublicCDTime.Name = "txtPublicCDTime";
+            this.txtPublicCDTime.Size = new System.Drawing.Size(77, 20);
+            this.txtPublicCDTime.TabIndex = 81;
+            this.txtPublicCDTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtPublicCDTime.Validated += new System.EventHandler(this.txtPublicCDTime_Validated);
             // 
-            // label6
+            // lblPublicCDTime
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(157, 121);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 13);
-            this.label6.TabIndex = 80;
-            this.label6.Text = "Public Cooldown:";
+            this.lblPublicCDTime.AutoSize = true;
+            this.lblPublicCDTime.Location = new System.Drawing.Point(157, 121);
+            this.lblPublicCDTime.Name = "lblPublicCDTime";
+            this.lblPublicCDTime.Size = new System.Drawing.Size(89, 13);
+            this.lblPublicCDTime.TabIndex = 80;
+            this.lblPublicCDTime.Text = "Public Cooldown:";
             // 
-            // textBox5
+            // txtCDTime
             // 
-            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtCDTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox5.Location = new System.Drawing.Point(74, 119);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(77, 20);
-            this.textBox5.TabIndex = 79;
+            this.txtCDTime.Location = new System.Drawing.Point(74, 119);
+            this.txtCDTime.Name = "txtCDTime";
+            this.txtCDTime.Size = new System.Drawing.Size(77, 20);
+            this.txtCDTime.TabIndex = 79;
+            this.txtCDTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NumberOnly_KeyPress);
+            this.txtCDTime.Validated += new System.EventHandler(this.txtCDTime_Validated);
             // 
-            // label5
+            // lblCDTime
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(11, 122);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 13);
-            this.label5.TabIndex = 78;
-            this.label5.Text = "Cooldown:";
+            this.lblCDTime.AutoSize = true;
+            this.lblCDTime.Location = new System.Drawing.Point(11, 122);
+            this.lblCDTime.Name = "lblCDTime";
+            this.lblCDTime.Size = new System.Drawing.Size(57, 13);
+            this.lblCDTime.TabIndex = 78;
+            this.lblCDTime.Text = "Cooldown:";
             // 
-            // textBox4
+            // txtLoadingTarget
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtLoadingTarget.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(99, 93);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(230, 20);
-            this.textBox4.TabIndex = 77;
+            this.txtLoadingTarget.Location = new System.Drawing.Point(99, 93);
+            this.txtLoadingTarget.Name = "txtLoadingTarget";
+            this.txtLoadingTarget.Size = new System.Drawing.Size(230, 20);
+            this.txtLoadingTarget.TabIndex = 77;
+            this.txtLoadingTarget.Validated += new System.EventHandler(this.txtLoadingTarget_Validated);
             // 
-            // label4
+            // lblLoadingTarget
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 96);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 13);
-            this.label4.TabIndex = 76;
-            this.label4.Text = "Loading Target:";
+            this.lblLoadingTarget.AutoSize = true;
+            this.lblLoadingTarget.Location = new System.Drawing.Point(11, 96);
+            this.lblLoadingTarget.Name = "lblLoadingTarget";
+            this.lblLoadingTarget.Size = new System.Drawing.Size(82, 13);
+            this.lblLoadingTarget.TabIndex = 76;
+            this.lblLoadingTarget.Text = "Loading Target:";
             // 
-            // textBox3
+            // txtLoadingSelf
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtLoadingSelf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(86, 67);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(243, 20);
-            this.textBox3.TabIndex = 75;
+            this.txtLoadingSelf.Location = new System.Drawing.Point(86, 67);
+            this.txtLoadingSelf.Name = "txtLoadingSelf";
+            this.txtLoadingSelf.Size = new System.Drawing.Size(243, 20);
+            this.txtLoadingSelf.TabIndex = 75;
+            this.txtLoadingSelf.Validated += new System.EventHandler(this.txtLoadingSelf_Validated);
             // 
-            // label3
+            // lblLoadingSelf
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 70);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 13);
-            this.label3.TabIndex = 74;
-            this.label3.Text = "Loading Self:";
+            this.lblLoadingSelf.AutoSize = true;
+            this.lblLoadingSelf.Location = new System.Drawing.Point(11, 70);
+            this.lblLoadingSelf.Name = "lblLoadingSelf";
+            this.lblLoadingSelf.Size = new System.Drawing.Size(69, 13);
+            this.lblLoadingSelf.TabIndex = 74;
+            this.lblLoadingSelf.Text = "Loading Self:";
             // 
-            // textBox2
+            // txtLoadingTmpTarget
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtLoadingTmpTarget.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(125, 41);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(204, 20);
-            this.textBox2.TabIndex = 73;
+            this.txtLoadingTmpTarget.Location = new System.Drawing.Point(125, 41);
+            this.txtLoadingTmpTarget.Name = "txtLoadingTmpTarget";
+            this.txtLoadingTmpTarget.Size = new System.Drawing.Size(204, 20);
+            this.txtLoadingTmpTarget.TabIndex = 73;
+            this.txtLoadingTmpTarget.Validated += new System.EventHandler(this.txtLoadingTmpTarget_Validated);
             // 
-            // label2
+            // lblLoadingTmpTarget
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(11, 44);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 13);
-            this.label2.TabIndex = 72;
-            this.label2.Text = "Loading Target (tmp):";
+            this.lblLoadingTmpTarget.AutoSize = true;
+            this.lblLoadingTmpTarget.Location = new System.Drawing.Point(11, 44);
+            this.lblLoadingTmpTarget.Name = "lblLoadingTmpTarget";
+            this.lblLoadingTmpTarget.Size = new System.Drawing.Size(108, 13);
+            this.lblLoadingTmpTarget.TabIndex = 72;
+            this.lblLoadingTmpTarget.Text = "Loading Target (tmp):";
             // 
-            // textBox1
+            // txtLoadingTmpSelf
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtLoadingTmpSelf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(112, 15);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(217, 20);
-            this.textBox1.TabIndex = 71;
+            this.txtLoadingTmpSelf.Location = new System.Drawing.Point(112, 15);
+            this.txtLoadingTmpSelf.Name = "txtLoadingTmpSelf";
+            this.txtLoadingTmpSelf.Size = new System.Drawing.Size(217, 20);
+            this.txtLoadingTmpSelf.TabIndex = 71;
+            this.txtLoadingTmpSelf.Validated += new System.EventHandler(this.txtLoadingTmpSelf_Validated);
             // 
-            // label1
+            // lblLoadingTmpSelf
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 13);
-            this.label1.TabIndex = 70;
-            this.label1.Text = "Loading Self (tmp):";
+            this.lblLoadingTmpSelf.AutoSize = true;
+            this.lblLoadingTmpSelf.Location = new System.Drawing.Point(11, 18);
+            this.lblLoadingTmpSelf.Name = "lblLoadingTmpSelf";
+            this.lblLoadingTmpSelf.Size = new System.Drawing.Size(95, 13);
+            this.lblLoadingTmpSelf.TabIndex = 70;
+            this.lblLoadingTmpSelf.Text = "Loading Self (tmp):";
             // 
             // chkPath
             // 
@@ -3047,7 +3173,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmItem";
-            this.Text = "Item Suits - Talisman Game Tools";
+            this.Text = "Item - Talisman Game Tools";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmItemsuit_FormClosing);
             this.Load += new System.EventHandler(this.frmItemsuit_Load);
             this.groupItems.ResumeLayout(false);
@@ -3244,46 +3370,46 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuOrder;
         private System.Windows.Forms.TextBox txtTargetRange;
         private System.Windows.Forms.Label lblTargetRange;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox txtLoadingTmpSelf;
+        private System.Windows.Forms.Label lblLoadingTmpSelf;
+        private System.Windows.Forms.TextBox txtLoadingTarget;
+        private System.Windows.Forms.Label lblLoadingTarget;
+        private System.Windows.Forms.TextBox txtLoadingSelf;
+        private System.Windows.Forms.Label lblLoadingSelf;
+        private System.Windows.Forms.TextBox txtLoadingTmpTarget;
+        private System.Windows.Forms.Label lblLoadingTmpTarget;
+        private System.Windows.Forms.TextBox txtPublicCDTime;
+        private System.Windows.Forms.Label lblPublicCDTime;
+        private System.Windows.Forms.TextBox txtCDTime;
+        private System.Windows.Forms.Label lblCDTime;
+        private System.Windows.Forms.TextBox txtForbiddenTime;
+        private System.Windows.Forms.Label lblForbiddenTime;
+        private System.Windows.Forms.TextBox txtTypeCDId;
+        private System.Windows.Forms.Label lblTypeCDId;
+        private System.Windows.Forms.TextBox txtCriticalRate;
+        private System.Windows.Forms.Label lblCriticalRate;
+        private System.Windows.Forms.TextBox txtPoseTime;
+        private System.Windows.Forms.Label lblPoseTime;
+        private System.Windows.Forms.TextBox txtEffRate;
+        private System.Windows.Forms.Label lblEffRate;
+        private System.Windows.Forms.TextBox txtAdditionShowParam;
+        private System.Windows.Forms.Label lblAddtionShowParam;
+        private System.Windows.Forms.TextBox txtDmgType;
+        private System.Windows.Forms.Label lblDmgType;
+        private System.Windows.Forms.TextBox txtLaunchTarget;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox txtLaunchSelf;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox txtLaunchTmpTarget;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox txtLaunchTmpSelf;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox txtDmgMinMax;
+        private System.Windows.Forms.Label lblDmgMinMax;
+        private System.Windows.Forms.TextBox txtRealDmgTime;
+        private System.Windows.Forms.Label lblRealDmgTime;
+        private System.Windows.Forms.TextBox txtNoDamage;
+        private System.Windows.Forms.Label lblNoDamage;
         private System.Windows.Forms.Label lblGraphParam;
         private System.Windows.Forms.TextBox txtGraphParam;
         private System.Windows.Forms.PictureBox picIcon;
@@ -3297,37 +3423,37 @@
         private System.Windows.Forms.TextBox txtModel;
         private System.Windows.Forms.TextBox txtMode2;
         private System.Windows.Forms.Label lblModel2;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TextBox txtScale;
+        private System.Windows.Forms.Label lblScale;
+        private System.Windows.Forms.TextBox txtItemRideEffectLink;
+        private System.Windows.Forms.Label lblItemRideEffectLink;
+        private System.Windows.Forms.TextBox txtItemRideEffect;
+        private System.Windows.Forms.Label lblItemRideEffect;
+        private System.Windows.Forms.TextBox txtWeaponLink;
+        private System.Windows.Forms.Label lblWeaponLink;
+        private System.Windows.Forms.TextBox txtModel4_2;
+        private System.Windows.Forms.Label lblModel4_2;
+        private System.Windows.Forms.TextBox txtModel3_2;
+        private System.Windows.Forms.Label lblModel_2;
+        private System.Windows.Forms.Label lblModel3_2;
+        private System.Windows.Forms.TextBox txtModel_2;
+        private System.Windows.Forms.TextBox txtModel2_2;
+        private System.Windows.Forms.Label lblModel2_2;
         private System.Windows.Forms.CheckBox chkPath;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TextBox txtSound;
+        private System.Windows.Forms.Label lblSound;
+        private System.Windows.Forms.TextBox txtWeapon1DrawInLink2;
+        private System.Windows.Forms.Label lblWeapon1DrawInLink2;
+        private System.Windows.Forms.TextBox txtWeaponLink2;
+        private System.Windows.Forms.Label lblWeaponLink2;
+        private System.Windows.Forms.TextBox txtWeapon1DrawInLink;
+        private System.Windows.Forms.Label lblWeapon1DrawInLink;
+        private System.Windows.Forms.TextBox txtGraph_HitEffLink;
+        private System.Windows.Forms.Label lblGraph_HitEffLink;
+        private System.Windows.Forms.TextBox txtGraph_HitEff;
+        private System.Windows.Forms.Label lblGraph_HitEff;
+        private System.Windows.Forms.TextBox txtGraph_SceneEff;
+        private System.Windows.Forms.Label lblGraph_SceneEff;
         private System.Windows.Forms.CheckBox chkPrePoseDrawWeap;
         private System.Windows.Forms.CheckBox chkCache;
         private System.Windows.Forms.CheckBox chkNotCheckAttState;

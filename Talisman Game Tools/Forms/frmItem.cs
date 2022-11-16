@@ -397,12 +397,43 @@ namespace Talisman_Game_Tools.Forms
                 txtBeforeLoadingTarget.Text = Items[Index].BeforeLoadingTarget;
                 txtLoadingTime.Text = Items[Index].LoadingTime.ToString();
                 txtLoadingCount.Text = Items[Index].LoadingCount.ToString();
-
+                txtLoadingTmpSelf.Text = Items[Index].LoadingTmpSelf;
+                txtLoadingTmpTarget.Text= Items[Index].LoadingTmpTarget;
+                txtLoadingSelf.Text = Items[Index].LoadingSelf;
+                txtLoadingTarget.Text = Items[Index].LoadingTarget;
+                txtCDTime.Text = Items[Index].CDTime.ToString();
+                txtPublicCDTime.Text = Items[Index].PublicCDTime.ToString();
+                txtTypeCDId.Text = Items[Index].TypeCDId.ToString();
+                txtForbiddenTime.Text = Items[Index].ForbiddenTime.ToString();
+                txtPoseTime.Text = Items[Index].PoseTime.ToString();
+                txtCriticalRate.Text = Items[Index].CriticalRate;
+                txtAdditionShowParam.Text = Items[Index].AddtionShowParam;
+                txtEffRate.Text = Items[Index].EffRate;
+                txtNoDamage.Text = Items[Index].NoDamage;
+                txtDmgType.Text = Items[Index].DmgType;
+                txtRealDmgTime.Text = Items[Index].RealDmgTime;
+                txtDmgMinMax.Text = Items[Index].DamageMinMax;
+                txtGraphParam.Text = Items[Index].graph_Param2;
                 txtIcon.Text = Items[Index].Icon;
                 txtModel.Text = Items[Index].Model;
                 txtMode2.Text = Items[Index].Model_Blue;
                 txtModel3.Text = Items[Index].Model_Golden;
                 txtModel4.Text = Items[Index].Model_10;
+                txtScale.Text = Items[Index].Scale_Value;
+                txtModel_2.Text = Items[Index].Model2;
+                txtModel2_2.Text = Items[Index].Model_Blue2;
+                txtModel3_2.Text = Items[Index].Model_Golden2;
+                txtModel4_2.Text = Items[Index].Model2_10;
+                txtWeaponLink.Text = Items[Index].weaponLink;
+                txtItemRideEffect.Text = Items[Index].ItemRiderEffect;
+                txtItemRideEffectLink.Text = Items[Index].ItemRiderEffectLink;
+                txtWeapon1DrawInLink.Text = Items[Index].weapon1DrawInLink;
+                txtWeaponLink2.Text = Items[Index].weaponLink2;
+                txtWeapon1DrawInLink2.Text = Items[Index].weapon1DrawInLink2;
+                txtSound.Text = Items[Index].Sound;
+                txtGraph_HitEff.Text = Items[Index].graph_HitEff;
+                txtGraph_HitEffLink.Text = Items[Index].graph_HitEffLink;
+                txtGraph_SceneEff.Text = Items[Index].graph_SceneEff;
 
                 // Checkbox's
                 chkIsTest.Checked = Items[Index].IsTestItem;
@@ -898,6 +929,8 @@ namespace Talisman_Game_Tools.Forms
 
         #endregion
 
+        #region Validated
+
         /// <summary>
         /// Validar ID
         /// </summary>
@@ -1088,6 +1121,1523 @@ namespace Talisman_Game_Tools.Forms
 
             if (int.TryParse(txtDamageLevel.Text, out int value))
                 Items[index].DamageLevel = value;
+        }
+
+        /// <summary>
+        /// Validar atributos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtDefaultAttrib_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtDefaultAttrib.Text, out int value))
+                Items[index].DefaultAttrib = value;
+        }
+
+        /// <summary>
+        /// Validar numero de atributos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtDefaultAttribNum_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtDefaultAttribNum.Text, out int value))
+                Items[index].DefaultAttibNum = value;
+        }
+
+        /// <summary>
+        /// Validar alteração do Factor
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtFactor_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Factor = txtFactor.Text;
+        }
+
+        /// <summary>
+        /// Validar DecomposeID
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtDecomposeId_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtDecomposeId.Text, out int value))
+                Items[index].DecomposeId = value;
+        }
+
+        /// <summary>
+        /// Validar quantidade inicial
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtInitCount_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtInitCount.Text, out int value))
+                Items[index].InitCount = value;
+        }
+
+        /// <summary>
+        /// Validar quantidade máxima
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtMaxCount_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtMaxCount.Text, out int value))
+                Items[index].MaxCount = value;
+        }
+
+        /// <summary>
+        /// Validar limite máximo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLimitTime_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtLimitTime.Text, out int value))
+                Items[index].TimeLimit = value;
+        }
+
+        /// <summary>
+        /// Validar valor do item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtValue_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtValue.Text, out int value))
+                Items[index].Value = value;
+        }
+
+        /// <summary>
+        /// Validar valor do item em cardpoints
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtCardPoints_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtCardPoints.Text, out int value))
+                Items[index].CardPoints = value;
+        }
+
+        /// <summary>
+        /// Validar resistência máxima
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtMaxHardiness_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtMaxHardiness.Text, out int value))
+                Items[index].MaxHardiness = value;
+        }
+
+        /// <summary>
+        /// Validar condição de uso
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtUseCondition_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].UseCondition = txtUseCondition.Text;
+        }
+
+        /// <summary>
+        /// Validar condição para equipar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipCondition_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipCondition = txtEquipCondition.Text;
+        }
+
+        /// <summary>
+        /// Validar ação ao equipar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtPickAction_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].PickAction = txtPickAction.Text;
+        }
+
+        /// <summary>
+        /// Validar Level_TableUse
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLevel_TableUse_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtLevel_TableUse.Text, out int value))
+                Items[index].Level_TableUse = value;
+        }
+
+        /// <summary>
+        /// Validar Ação ao equipar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipAction_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipAction = txtEquipAction.Text;
+        }
+
+        /// <summary>
+        /// Validar buff do item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtBindBuff_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtBindBuff.Text, out int value))
+                Items[index].BindBuff = value;
+        }
+
+        /// <summary>
+        /// Validar defesa fisica do item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipPhyArmor_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipPhyArmor = txtEquipPhyArmor.Text;
+        }
+
+        /// <summary>
+        /// Validar defesa ao fogo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipArm_Fire_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipeArm_Fire = txtEquipArm_Fire.Text;
+        }
+
+        /// <summary>
+        /// Validar defesa a água
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipArm_Wator_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipArm_Wator = txtEquipArm_Wator.Text;
+        }
+
+        /// <summary>
+        /// Validar defesa ao veneno
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipArm_Poison_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipArm_Poison = txtEquipArm_Poison.Text;
+        }
+
+        /// <summary>
+        /// Validar defesa a luz
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipArm_Light_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipArm_Light = txtEquipArm_Light.Text;
+        }
+
+        /// <summary>
+        /// Validar defesa ao buddha
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipArm_Fo_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipArm_Fo = txtEquipArm_Fo.Text;
+        }
+
+        /// <summary>
+        /// Validar absorção de dano
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipDamageAbsorb_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipDamageAbsorb = txtEquipDamageAbsorb.Text;
+        }
+
+        /// <summary>
+        /// Validar dando por segundo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipDps_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipDps = txtEquipDps.Text;
+        }
+
+        /// <summary>
+        /// Validar chance de desvio
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEquipParry_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EquipParry = txtEquipParry.Text;
+        }
+
+        /// <summary>
+        /// Validar valor inicial do efeito
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtInitValue_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].InitValue = txtInitValue.Text;
+        }
+
+        /// <summary>
+        /// Validar GemmyLevel
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtGemmyLevel_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtGemmyLevel.Text, out int value))
+                Items[index].GemmyLevel = value;
+        }
+
+        /// <summary>
+        /// Validar GemmyType
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtGemmyType_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].GemmyType = txtGemmyType.Text;
+        }
+
+        /// <summary>
+        /// Validar pose ao iniciar uso do item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtPreStartPose_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].PreStartPose = txtPreStartPose.Text;
+        }
+
+        /// <summary>
+        /// Validar pose enquanto carrega o item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtPrePose_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].PrePose = txtPrePose.Text;
+        }
+
+        /// <summary>
+        /// Validar pose ao finalizar carregamento do item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEndPose_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EndPose = txtEndPose.Text;
+        }
+
+        /// <summary>
+        /// Validar outros paramentros 1
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtOtherParam_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].OtherParam = txtOtherParam.Text;
+        }
+
+        /// <summary>
+        /// Validar outros paramentros 2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtOtherParam2_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].OtherParam2 = txtOtherParam2.Text;
+        }
+
+        /// <summary>
+        /// Validar outros parametros 3
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtOtherParam3_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].OtherParam3 = txtOtherParam3.Text;
+        }
+
+        /// <summary>
+        /// Validar mensagem ao usar item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtItemUseMessage_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].ItemUseMessage = txtItemUseMessage.Text;
+        }
+
+        /// <summary>
+        /// Validar habilidades vinculadas ao item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTrumpSkills_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].TrumpSkills = txtTrumpSkills.Text;
+        }
+
+        /// <summary>
+        /// Validar habilidades finais vinculadas ao item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTrumpFinalSkills_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].TrumpFinalSkills = txtTrumpFinalSkills.Text;
+        }
+
+        /// <summary>
+        /// Validar talentos do item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTrumpTalents_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].TrumpTalents = txtTrumpTalents.Text;
+        }
+
+        /// <summary>
+        /// Validar Attack Skill
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTrumpAttackSkill_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtTrumpAttackSkill.Text, out int value))
+                Items[index].TrumpAttackSkill = value;
+        }
+
+        /// <summary>
+        /// Validar Benefit
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtBenefit_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (byte.TryParse(txtBenefit.Text, out byte value))
+                Items[index].Benefit = value;
+        }
+
+        /// <summary>
+        /// Validar Special
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtSpecial_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtSpecial.Text, out int value))
+                Items[index].Special = value;
+        }
+
+        /// <summary>
+        /// Validar tipo de alvo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTargetType_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (byte.TryParse(txtTargetType.Text, out byte value))
+                Items[index].TargetType = value;
+        }
+
+        /// <summary>
+        /// Validar numero de alvos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTargetCount_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (byte.TryParse(txtTargetCount.Text, out byte value))
+                Items[index].TargetCount = value;
+        }
+
+        /// <summary>
+        /// Validar Alcance do alvo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTargetRange_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtTargetRange.Text, out int value))
+                Items[index].TargetRange = value;
+        }
+
+        /// <summary>
+        /// Validar condição do alvo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTargetCondition_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].TargetCondition = txtTargetCondition.Text;
+        }
+
+        /// <summary>
+        /// Validar raio de alcance do efeito
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTargetRadius_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtTargetRadius.Text, out int value))
+                Items[index].TargetRadius = value;
+        }
+
+        /// <summary>
+        /// Validar preTime
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtPreTime_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtPreTime.Text, out int value))
+                Items[index].PreTime = value;
+        }
+
+        /// <summary>
+        /// Validar BeforeLoadingTmpSelf
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtBeforeLoadingTmpSelf_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].BeforeLoadingTmpSelf = txtBeforeLoadingTmpSelf.Text;
+        }
+
+        /// <summary>
+        /// Validar BeforeLoadingTmpTarget
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtBeforeLoadingTmpTarget_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].BeforeLoadingTmpTarget = txtBeforeLoadingTmpTarget.Text;
+        }
+
+        /// <summary>
+        /// Validar BeforeLoadingSelf
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtBeforeLoadingSelf_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].BeforeLoadingSelf = txtBeforeLoadingSelf.Text;
+        }
+
+        /// <summary>
+        /// Validar BeforeLoadingTarget
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtBeforeLoadingTarget_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].BeforeLoadingTarget = txtBeforeLoadingTarget.Text;
+        }
+
+        /// <summary>
+        /// Validar tempo de carregamento
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLoadingTime_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtLoadingTime.Text, out int value))
+                Items[index].LoadingTime = value;
+        }
+
+        /// <summary>
+        /// Validar quantidade de carregamentos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLoadingCount_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtLoadingCount.Text, out int value))
+                Items[index].LoadingCount = value;
+        }
+
+        /// <summary>
+        /// Validar LoadingTmpSelf
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLoadingTmpSelf_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].LoadingTmpSelf = txtLoadingTmpSelf.Text;
+        }
+
+        /// <summary>
+        /// Validar LoadingTmpTarget
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLoadingTmpTarget_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].LoadingTmpTarget = txtLoadingTmpTarget.Text;
+        }
+
+        /// <summary>
+        /// Validar LoadingSelf
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLoadingSelf_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].LoadingSelf = txtLoadingSelf.Text;
+        }
+
+        /// <summary>
+        /// Validar LoadingTarget
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLoadingTarget_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].LoadingTarget = txtLoadingTarget.Text;
+        }
+
+        /// <summary>
+        /// Validar tempo de resfriamento
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtCDTime_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtCDTime.Text, out int value))
+                Items[index].CDTime = value;
+        }
+
+        /// <summary>
+        /// Validar tempo de resfriamento publico
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtPublicCDTime_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtPublicCDTime.Text, out int value))
+                Items[index].PublicCDTime = value;
+        }
+
+        /// <summary>
+        /// Validar Tipo de resfriamento
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtTypeCDId_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (byte.TryParse(txtTypeCDId.Text, out byte value))
+                Items[index].TypeCDId = value;
+        }
+
+        /// <summary>
+        /// Validar forbiddenTime
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtForbiddenTime_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtForbiddenTime.Text, out int value))
+                Items[index].ForbiddenTime = value;
+        }
+
+        /// <summary>
+        /// Validar PoseTime
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtPoseTime_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            if (int.TryParse(txtPoseTime.Text, out int value))
+                Items[index].PoseTime = value;
+        }
+
+        /// <summary>
+        /// Validar Chance de Critico
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtCriticalRate_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].CriticalRate = txtCriticalRate.Text;
+        }
+
+        /// <summary>
+        /// Validar AdditionShowParam
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtAdditionShowParam_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].AddtionShowParam = txtAdditionShowParam.Text;
+        }
+
+        /// <summary>
+        /// Validar EffRate
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtEffRate_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].EffRate = txtEffRate.Text;
+        }
+
+        /// <summary>
+        /// Validar NoDamage
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtNoDamage_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].NoDamage = txtNoDamage.Text;
+        }
+
+        /// <summary>
+        /// Validar DmgType
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtDmgType_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].DmgType = txtDmgType.Text;
+        }
+
+        /// <summary>
+        /// Validar RealDmgTime
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtRealDmgTime_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].RealDmgTime = txtRealDmgTime.Text;
+        }
+
+        /// <summary>
+        /// Validar DmgMinMax
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtDmgMinMax_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].DamageMinMax = txtDmgMinMax.Text;
+        }
+
+        /// <summary>
+        /// Validar WeaponLink
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtWeaponLink_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].weaponLink = txtWeaponLink.Text;
+        }
+
+        /// <summary>
+        /// Validar ItemRideEffect
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtItemRideEffect_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].ItemRiderEffect = txtItemRideEffect.Text;
+        }
+
+        /// <summary>
+        /// Validar ItemRideEffectLink
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtItemRideEffectLink_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].ItemRiderEffectLink = txtItemRideEffectLink.Text;
+        }
+
+        /// <summary>
+        /// Validar Weapon1DrawInLink
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtWeapon1DrawInLink_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].weapon1DrawInLink = txtWeapon1DrawInLink.Text;
+        }
+
+        /// <summary>
+        /// Validar WeaponLink2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtWeaponLink2_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].weaponLink2 = txtWeaponLink2.Text;
+        }
+
+        /// <summary>
+        /// Validar Weapon1DrawInLink2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtWeapon1DrawInLink2_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].weapon1DrawInLink2 = txtWeapon1DrawInLink2.Text;
+        }
+
+        /// <summary>
+        /// Validar LaunchTmpSelf
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLaunchTmpSelf_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].LaunchTmpSelf = txtLaunchTmpSelf.Text;
+        }
+
+        /// <summary>
+        /// Validar LaunchTmpTarget
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLaunchTmpTarget_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].LaunchTmpTarget = txtLaunchTmpTarget.Text;
+        }
+
+        /// <summary>
+        /// Validar LaunchSelf
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLaunchSelf_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].LaunchSelf = txtLaunchSelf.Text;
+        }
+
+        /// <summary>
+        /// Validar LaunchTarget
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtLaunchTarget_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].LaunchTarget = txtLaunchTarget.Text;
+        }
+
+        /// <summary>
+        /// Validar Parametro Grafico
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtGraphParam_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].graph_Param2 = txtGraphParam.Text;
+        }
+
+        /// <summary>
+        /// Validar Escala do modelo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtScale_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Scale_Value = txtScale.Text;
+        }
+
+        /// <summary>
+        /// Validar modelo 3d padrão
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtModel_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Model = txtModel.Text;
+        }
+
+        /// <summary>
+        /// Validar modelo 3d +4++
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtMode2_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Model_Blue = txtMode2.Text;
+        }
+
+        /// <summary>
+        /// Validar modelo 3d +7++
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtModel3_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Model_Golden = txtModel3.Text;
+        }
+
+        /// <summary>
+        /// Validar modelo 3d +10++
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtModel4_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Model_10 = txtModel4.Text;
+        }
+
+        /// <summary>
+        /// Validar modelo 3d padrão v2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtModel_2_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Model2 = txtModel_2.Text;
+        }
+
+        /// <summary>
+        /// Validar modelo 3d +4++ v2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtModel2_2_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Model_Blue2 = txtModel2_2.Text;
+        }
+
+        /// <summary>
+        /// Validar modelo 3d +7++ v2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtModel3_2_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Model_Golden2 = txtModel3_2.Text;
+        }
+
+        /// <summary>
+        /// Validar modelo 3d +10++ v2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtModel4_2_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Model2_10 = txtModel4_2.Text;
+        }
+
+        /// <summary>
+        /// Validar som
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtSound_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Sound = txtSound.Text;
+        }
+
+        /// <summary>
+        /// Validar Graph_SceneEff
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtGraph_SceneEff_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].graph_SceneEff = txtGraph_SceneEff.Text;
+        }
+
+        /// <summary>
+        /// Validar Graph_HitEff
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtGraph_HitEff_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].graph_HitEff = txtGraph_HitEff.Text;
+        }
+
+        /// <summary>
+        /// Validar Graph_HitEffLink
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txtGraph_HitEffLink_Validated(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].graph_HitEffLink = txtGraph_HitEffLink.Text;
+        }
+
+
+
+        #endregion
+
+        /// <summary>
+        /// Alterar releaseType
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cmbReleaseType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].ReleaseType = (byte)cmbReleaseType.SelectedIndex;
+        }
+
+        /// <summary>
+        /// Alterar tipo do item
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cmbType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            var type = byte.Parse(cmbType.SelectedItem.ToString().Split(':')[0]);
+            Items[index].Type = type;
+        }
+
+        /// <summary>
+        /// Alterar cor padrão
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cmbColor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].DefaultColor = (byte)cmbColor.SelectedIndex;
+        }
+
+        /// <summary>
+        /// Alterar classe permitida
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cmbParty_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].Party = (byte)cmbParty.SelectedIndex;
+        }
+
+        /// <summary>
+        /// Alterar tipo de uso
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cmbUseType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].UseType = (byte)cmbUseType.SelectedIndex;
+        }
+
+        /// <summary>
+        /// Alterar Tipo de Arma
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cmbWeaponType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Tratativa de erro
+            var index = SelectedIndex();
+            if (index < 0 || index >= Items.Count)
+                return;
+
+            Items[index].WeaponType = (byte)cmbWeaponType.SelectedIndex;
         }
     }
 }
