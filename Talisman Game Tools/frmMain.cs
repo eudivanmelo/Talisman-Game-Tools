@@ -181,5 +181,19 @@ namespace Talisman_Game_Tools
             else
                 frmItem.Show(); // Abrir formulário
         }
+
+        private void btnPrivileges_Click(object sender, EventArgs e)
+        {
+            // Verificar se ester formulário já está aberto
+            var frmPriv = Application.OpenForms["frmPriv"];
+            if (frmPriv == null) // Verificar se é nulo, se sim criar um novo
+                frmPriv = new frmPriv();
+
+            // Verificar se o formulário está visível, de sim focar
+            if (frmPriv.Visible)
+                frmPriv.Focus();
+            else
+                frmPriv.Show(); // Abrir formulário
+        }
     }
 }

@@ -38,7 +38,7 @@
             this.btnApply = new System.Windows.Forms.Button();
             this.txtSettings = new System.Windows.Forms.TextBox();
             this.groupTools = new System.Windows.Forms.GroupBox();
-            this.button12 = new System.Windows.Forms.Button();
+            this.btnPrivileges = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -152,7 +152,7 @@
             // 
             // groupTools
             // 
-            this.groupTools.Controls.Add(this.button12);
+            this.groupTools.Controls.Add(this.btnPrivileges);
             this.groupTools.Controls.Add(this.button11);
             this.groupTools.Controls.Add(this.button10);
             this.groupTools.Controls.Add(this.button9);
@@ -172,17 +172,17 @@
             this.groupTools.TabStop = false;
             this.groupTools.Text = "FERRAMENTAS:";
             // 
-            // button12
+            // btnPrivileges
             // 
-            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnPrivileges.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button12.Enabled = false;
-            this.button12.Location = new System.Drawing.Point(6, 367);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(188, 23);
-            this.button12.TabIndex = 12;
-            this.button12.Text = "...";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btnPrivileges.Location = new System.Drawing.Point(6, 367);
+            this.btnPrivileges.Name = "btnPrivileges";
+            this.btnPrivileges.Size = new System.Drawing.Size(188, 23);
+            this.btnPrivileges.TabIndex = 12;
+            this.btnPrivileges.Text = "Privileges";
+            this.btnPrivileges.UseVisualStyleBackColor = true;
+            this.btnPrivileges.Click += new System.EventHandler(this.btnPrivileges_Click);
             // 
             // button11
             // 
@@ -359,7 +359,7 @@
         private System.Windows.Forms.Button btnApply;
         private System.Windows.Forms.TextBox txtSettings;
         private System.Windows.Forms.GroupBox groupTools;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnPrivileges;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
