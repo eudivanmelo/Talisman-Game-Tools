@@ -583,21 +583,6 @@ namespace Talisman_Game_Tools.Forms
         }
 
         /// <summary>
-        /// Ordenar items por ID
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void toolStripMenuOrder_Click(object sender, EventArgs e)
-        {
-            Items.Sort(delegate (Item a, Item b)
-            {
-                return a.Id.CompareTo(b.Id);
-            });
-
-            UpdateList(); // Atualizar lista
-        }
-
-        /// <summary>
         /// Permitir apenas numeros no textbox
         /// </summary>
         /// <param name="sender"></param>
@@ -2638,6 +2623,36 @@ namespace Talisman_Game_Tools.Forms
                 return;
 
             Items[index].WeaponType = (byte)cmbWeaponType.SelectedIndex;
+        }
+
+        /// <summary>
+        /// Organizar por ID
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void IDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Items.Sort(delegate (Item a, Item b)
+            {
+                return a.Id.CompareTo(b.Id);
+            });
+
+            UpdateList(); // Atualizar lista
+        }
+
+        /// <summary>
+        /// Organizar por tipo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void typeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Items.Sort(delegate (Item a, Item b)
+            {
+                return a.Type.CompareTo(b.Type);
+            });
+
+            UpdateList(); // Atualizar lista
         }
     }
 }

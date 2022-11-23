@@ -43,6 +43,9 @@
             this.toolStripMenuDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuOrder = new System.Windows.Forms.ToolStripMenuItem();
+            this.IDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.typeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnReload = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
@@ -412,10 +415,33 @@
             // 
             // toolStripMenuOrder
             // 
+            this.toolStripMenuOrder.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.IDToolStripMenuItem,
+            this.typeToolStripMenuItem,
+            this.nameToolStripMenuItem});
             this.toolStripMenuOrder.Name = "toolStripMenuOrder";
             this.toolStripMenuOrder.Size = new System.Drawing.Size(125, 22);
             this.toolStripMenuOrder.Text = "Organizar";
-            this.toolStripMenuOrder.Click += new System.EventHandler(this.toolStripMenuOrder_Click);
+            // 
+            // IDToolStripMenuItem
+            // 
+            this.IDToolStripMenuItem.Name = "IDToolStripMenuItem";
+            this.IDToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.IDToolStripMenuItem.Text = "Id";
+            this.IDToolStripMenuItem.Click += new System.EventHandler(this.IDToolStripMenuItem_Click);
+            // 
+            // typeToolStripMenuItem
+            // 
+            this.typeToolStripMenuItem.Name = "typeToolStripMenuItem";
+            this.typeToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.typeToolStripMenuItem.Text = "Type";
+            this.typeToolStripMenuItem.Click += new System.EventHandler(this.typeToolStripMenuItem_Click);
+            // 
+            // nameToolStripMenuItem
+            // 
+            this.nameToolStripMenuItem.Name = "nameToolStripMenuItem";
+            this.nameToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.nameToolStripMenuItem.Text = "Name";
             // 
             // btnCancel
             // 
@@ -3457,5 +3483,8 @@
         private System.Windows.Forms.CheckBox chkPrePoseDrawWeap;
         private System.Windows.Forms.CheckBox chkCache;
         private System.Windows.Forms.CheckBox chkNotCheckAttState;
+        private System.Windows.Forms.ToolStripMenuItem IDToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem typeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nameToolStripMenuItem;
     }
 }
