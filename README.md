@@ -3,7 +3,8 @@
 Editor para servidor privados de talisman, o mesmo está sendo desenvolvido em C#, onde o mesmo ler os arquivos CSV do game_server e client, e separa e organiza todos os dados, o mesmo ainda está em desenvolvimento, logo irei atualizando aqui suas funcionalidades.
 
 * Editor do itemsuit.csv e itemsuit_desc.csv [CONCLUIDO]
-* Editor do item.csv e item_desc.csv [EM ANDAMENTO]
+* Editor do item.csv e item_desc.csv [CONCLUIDO]
+* Editor do priv_cmd.csv e priv_cfg.csv [EM ANDAMENTO]
 
 # Como utilizar
 
