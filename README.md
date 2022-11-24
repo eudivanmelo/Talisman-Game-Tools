@@ -4,7 +4,7 @@ Editor para servidor privados de talisman, o mesmo está sendo desenvolvido em C
 
 * Editor do itemsuit.csv e itemsuit_desc.csv [CONCLUIDO]
 * Editor do item.csv e item_desc.csv [CONCLUIDO]
-* Editor do priv_cmd.csv e priv_cfg.csv [EM ANDAMENTO]
+* Editor do priv_cmd.csv e priv_cfg.csv [CONCLUIDO]
 
 # Como utilizar
 
